@@ -158,6 +158,8 @@ Fixation detection parameters (top of the script): gaze held within **25 px** fo
 
 Turns the confusion clicks into a `label` column (1 = confused) on `fixation.csv`.
 
+> **Replaced on branch `intern-work` (§11 Exp. 1):** `label.py` now labels by *time* (fixation overlaps the 5/10/15 s before a click), for every session listed in `sessions.py`, from the corrected fixations made by `rebuild_fixations.py`. Run `python rebuild_fixations.py` then `python label.py`; outputs go to `processed/<session>/fixations_labeled.csv` and `processed/label_summary.csv`. The rest of this section describes the original script (still in git history at the baseline commit).
+
 **This script is not runnable as-is on new data** — it has a session-specific hardcoded row range (`range(2, 33)`) and hardcoded file paths. For every new session you must edit it:
 
 1. Point the two `read_csv` paths at your session's `fixation.csv` and `yes_click_log1.csv`.
@@ -229,7 +231,7 @@ Collects gaze + mouse + per-paragraph helpfulness ratings on real Wikipedia page
 7. **Everything is absolute screen pixels.** Any change to monitor, resolution, display scaling, window position, zoom, or a single scroll of the page invalidates the AOI file. Design experiments so the full text fits on one static screen.
 8. **Code hygiene:** `cnn.py` contains no CNN; `feature.py` and `test.py` are ~half dead commented-out code; the green-bubble detector is copy-pasted into six files; filenames are hand-edited constants that drift between scripts (§5 warning).
 
-### 10.9 Findings from the October 2026 reproduction (branch `intern-work`)
+### 10.9 Findings from the reproduction (branch `intern-work`)
 
 Measured while reproducing stages 3–7 and auditing the old data. Status in brackets.
 
@@ -243,6 +245,7 @@ Measured while reproducing stages 3–7 and auditing the old data. Status in bra
 - **A confusion click made while looking outside every AOI is lost**: it is logged with `AOI_ID = None` and `label.py` skips it. (Time-window labelling — §11 Exp. 1 — does not need the AOI, so this goes away.)
 - **`aoi.py`** takes its screenshot instantly (run it as `python -c "import time; time.sleep(5); exec(open('aoi.py').read())"`), always overwrites the same filename, and OCRs browser tabs, the address bar and the taskbar — use a full-screen (F11) page.
 - **`label.py` reads `CONFUSION/fixation.csv`** (an old file), not the session's `demo_video_logs/fixation.csv`.
+- **Experiment 1 result (time-window labels, 20 old sessions, 1,616 corrected fixations).** Positive rate: 16% (5 s), 26% (10 s), 35% (15 s). So the "implausible 36%" of §10.2 comes mostly from the 15 s window length, not only from labelling by place; the place rule and the 15 s time rule disagree on just 16% of fixations here, because a reader's fixations on one line also cluster in time. (On a session with many clicks on different lines — s21 — they disagree on 47%.) The important change is *what the labels mean*: time labels mark *when* the reader was confused and don't depend on line identity, so they can't leak position into a model. **Behaviour differs before clicks** (5 s window, paired per session): regression rate higher in 19/19 sessions with clicks (median +0.18), fixations longer in 17/19 (+0.13 s), saccades shorter in 19/19 (−95 px); Wilcoxon p < 0.001 each. Not caused by glances at the click button (0 fixations on it inside windows). Caveats: probably one reader; self-report clicks; fixations inside one window are not independent (hence per-session tests).
 
 ---
 

@@ -1,0 +1,38 @@
+blockId,timestamp,helpfulness,tag,x,y,width,height,x_screen,y_screen,content
+"6","2025-07-14 01:19:44.791200","2","P","264","223.8000030517578","992.7999877929688","104","264","344.8000030517578","Nutanix, Inc. is an American cloud computing company that sells software for datacenters and hybrid multi-cloud deployments. This includes software for virtualization, Kubernetes, database-as-a-service, software-defined networking, security, as well as software-defined storage for file, object, and block storage.[2]"
+"9","2025-07-14 01:20:09.998900","2","P","264","795.6750183105469","992.7999877929688","130","264","616.6750183105469","Venture capital firms invested $312.2 million over five rounds of funding in Nutanix. The company reached a $1 billion valuation by 2013, which made it known as a ""unicorn startup"".[4] It raised $140 million in a Series E round of financing in 2014, valuing the company at approximately $2 billion.[5] Nutanix's backers included Lightspeed Venture Partners, Khosla Ventures, and Blumberg Capital.[6]"
+"17","2025-07-14 01:20:34.759100","3","P","264","1995.675048828125","992.800048828125","130","264","1316.675048828125","In 2022, MinIO alleged that Nutanix had been violating MinIO's free software license, and had done so for three years; with negotiations over the matter leading to no resolution, MinIO reported having revoked Nutanix's license.[25][better source needed] According to Adam Armstrong, writing for TechTarget.com, Nutanix ""initially... deny[ied] any wrongdoing"" but ""walked that position back a week later"", acknowledging it had ""'discovered some inadvertent omissions in Nutanix Objects' open source at"
+"19","2025-07-14 01:20:46.969000","3","TABLE","264","2697.987548828125","950.7625122070312","233.1999969482422","264","1518.987548828125","Date	Company	Description	References
+August 2016	PernixData	Software for virtualizing server-side flash memory and random-access memory.	[27]
+August 2016	Calm.io	DevOps automation platform	[28]
+March 2018	Netsil	Cloud application monitoring startup	[29]
+March 2018	Minjar	The maker of Botmetric, a service for public clouds.	[30]
+August 2018	MainFrame2 Inc.	Cloud-based Windows desktop and application delivery	[31]
+December 2023	D2iQ	Manage Kubernetes at scale easily"
+"22","2025-07-14 01:20:59.103700","1","P","264","3499.0625","992.800048828125","26","264","1920.0625","Nutanix marketed its products as ""hyper-converged infrastructure"".[37] In 2020, the company shifted to a subscription business model.[38]"
+"21","2025-07-14 01:21:18.371600","1","P","264","3405.0625","992.800048828125","78","264","1826.0625","Nutanix combines storage, computing, and virtualization. The company's software product families include Acropolis, Prism, Era, Frame, and Files.[32][33][34][35] In 2015, Nutanix was reported to have built a Linux KVM based hypervisor, called AHV (Acropolis HyperVisor) in order to make managing computer infrastructure easier.[36]"
+"5","2025-07-14 01:21:38.108400","3","TABLE","947.0499877929688","430.83750915527344","309.75","612.8624877929688","947.0499877929688","351.83750915527344","Nutanix, Inc.
+
+Company type	Public
+Traded as	
+Nasdaq: NTNX (Class A)
+Russell 1000 component
+
+Founded	2009; 16 years ago
+Founders	
+Dheeraj Pandey
+Mohit Aron
+Ajeet Singh
+
+Headquarters	San Jose, California, U.S.
+Key people	Rajiv Ramaswami (president & CEO)
+Products	
+Enterprise cloud platform
+Business software
+Internet of things
+
+Revenue	 US$2,149 million (2024)
+Operating income	 US$7.56 million (2024)
+Net income	 −US$125 million (2024)
+Total assets	 US$2,144 million (2024)
+Total equity	 −US$728 mil"

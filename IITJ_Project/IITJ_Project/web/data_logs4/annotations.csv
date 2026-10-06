@@ -1,0 +1,37 @@
+blockId,timestamp,helpfulness,tag,x,y,width,height,x_screen,y_screen,content
+"6","2025-07-04 17:19:43.315800","3","P","264","257.8000183105469","992.7999877929688","260","264","378.8000183105469","Mars Orbiter Mission (MOM), unofficially known as Mangalyaan[11] (Sanskrit: Maṅgala 'Mars', Yāna 'Craft, Vehicle'),[12][13] is a space probe orbiting Mars since 24 September 2014. It was launched on 5 November 2013 by the Indian Space Research Organisation (ISRO).[14][15][16][17] It was India's first interplanetary mission[18] and it made ISRO the fourth space agency to achieve Mars orbit, after Soviet space program, NASA, and the European Space Agency.[19] It made India the first Asian nation t"
+"9","2025-07-04 17:20:17.437700","2","P","264","1529.7999877929688","992.7999877929688","208","264","1050.7999877929688","On 2 October 2022, it was reported that the orbiter had irrecoverably lost communications with Earth after entering a seven-hour eclipse period in April 2022 that it was not designed to survive.[29][30][31] The following day, ISRO released a statement that all attempts to revive MOM had failed and officially declared it dead.[32] The loss of fuel preventing the attitude adjustment of the spacecraft required to sustain battery power to the probe's instruments had been discussed at an ISRO confere"
+"5","2025-07-04 17:20:53.374600","3","TABLE","904.7999877929688","585.6374816894531","352","1593.2000732421875","904.7999877929688","385.8374938964844","Mars Orbiter Mission
+Mars Orbiter Mission spacecraft around Mars (illustration)
+
+Names	Mangalyaan-1
+MOM
+
+Mission type	Mars orbiter
+Operator	ISRO
+COSPAR ID	2013-060A
+
+SATCAT no.	39370
+Website	isro.gov.in
+Mission duration	Planned:
+6 months[1]
+Final:
+7 years, 6 months, 8 days
+
+Spacecraft properties
+Bus	I-1K[2]
+Manufacturer	U R Rao Satellite Centre
+Launch mass	1,337.2 kg (2,948 lb)[3]
+BOL mass	≈550 kg (1,210 lb)[4]
+Dry mass	482.5 kg (1,064 lb)[3]
+Payload mass	13.4 kg (30 lb)[3]
+Dimensions	1.5 m (4.9"
+"13","2025-07-04 17:21:35.443700","2","P","264","3052.47509765625","992.7999877929688","312","264","1728.675048828125","Assembly of the PSLV-XL launch vehicle, designated C25, started on 5 August 2013.[41] The mounting of the five scientific instruments was completed at Indian Space Research Organisation Satellite Centre, Bengaluru, and the finished spacecraft was shipped to Sriharikota on 2 October 2013 for integration to the PSLV-XL launch vehicle.[41] The satellite's development was fast-tracked and completed in a record 15 months,[42] partly due to using reconfigured Chandrayaan-2 orbiter bus.[43] Despite the"
+"23","2025-07-04 17:22:22.575000","3","P","264","5355.0625","992.7999877929688","260","264","2949.66259765625","The total cost of the mission was approximately ₹450 Crore (US$73 million),[47][48] making it the least-expensive Mars mission to date.[49] The low cost of the mission was ascribed by ISRO chairman K. Radhakrishnan to various factors, including a ""modular approach"", few ground tests and long working days (18 to 20 hours) for scientists.[50] BBC's Jonathan Amos specified lower worker costs, home-grown technologies, simpler design, and a significantly less complicated payload than NASA's MAVEN.[27"
+"22","2025-07-04 17:22:49.868600","2","IMG","1049","5483.0625","202","129","1049","3052.862548828125","bbb"
+"33","2025-07-04 17:23:15.530100","3","IMG","579.7999877929688","7573.6376953125","361.20001220703125","211.7375030517578","579.7999877929688","4073.837646484375","https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Mars_Orbiter_Mission_Spacecraft.jpg/500px-Mars_Orbiter_Mission_Spacecraft.jpg"
+"35","2025-07-04 17:23:40.579300","3","IMG","579.7999877929688","8805.85009765625","361.20001220703125","199.375","579.7999877929688","4682.85009765625","https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Mars_Orbiter_Mission_-_Payloads.png/500px-Mars_Orbiter_Mission_-_Payloads.png"
+"37","2025-07-04 17:24:19.513500","3","TABLE","264","9669.02490234375","992.7999877929688","1259.5999755859375","264","5013.22509765625","Mars Orbiter Mission payloads
+Payload	Mass	Image	Objectives
+Atmospheric studies
+Lyman-Alpha Photometer (LAP)	1.97 kg (4.3 lb)		A photometer that measures the relative abundance of deuterium and hydrogen from Lyman-alpha emissions in the upper atmosphere. Measuring the deuterium/hydrogen ratio will allow an estimation of the amount of water loss to outer space. The nominal plan to operate LAP is between the ranges of approximately 3,000 km (1,900 mi) before and after Mars periapsis. Minimum obser"

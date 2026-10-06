@@ -1,0 +1,50 @@
+/* Sidebar Panel */
+#sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100vh;
+  background: #fff;
+  border-left: 2px solid #ccc;
+  padding: 10px;
+  overflow-y: auto;
+  z-index: 99999;
+}
+
+/* Dashed outline to show which elements are annotatable */
+.annotatable-block {
+  outline: 1px dashed lightgray;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+/* Helpfulness Label */
+.block-label {
+  position: absolute;
+  z-index: 9999;
+  display: flex;
+  gap: 4px;
+  background: #f9f9f9;
+  padding: 2px 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+
+/* Button Styles */
+.block-label button {
+  font-size: 10px;
+  padding: 1px 4px;
+  border-radius: 3px;
+  border: 1px solid #aaa;
+  background-color: white;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.block-label button:hover {
+  background-color: #f0f0f0;
+}

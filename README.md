@@ -173,6 +173,8 @@ Turns the confusion clicks into a `label` column (1 = confused) on `fixation.csv
 
 ## 8. Stage 6 — Train the model (script missing — must be recreated)
 
+> **Now exists on branch `intern-work` (§11 Exp. 2):** `CONFUSION/train.py` — behavioural window features only, leave-one-session-out evaluation, fixed seed; writes `processed/exp2_results.json` and `processed/exp2_windows.csv`. Run after `rebuild_fixations.py` and `label.py`. Results in §10.9. The rest of this section describes the original, unrecorded procedure.
+
 **There is no training script in the repo.** The previous intern trained the `.pkl` models in an uncommitted notebook. The procedure they documented:
 
 1. Load `fixation_label.csv` with pandas.
@@ -246,6 +248,18 @@ Measured while reproducing stages 3–7 and auditing the old data. Status in bra
 - **`aoi.py`** takes its screenshot instantly (run it as `python -c "import time; time.sleep(5); exec(open('aoi.py').read())"`), always overwrites the same filename, and OCRs browser tabs, the address bar and the taskbar — use a full-screen (F11) page.
 - **`label.py` reads `CONFUSION/fixation.csv`** (an old file), not the session's `demo_video_logs/fixation.csv`.
 - **Experiment 1 result (time-window labels, 20 old sessions, 1,616 corrected fixations).** Positive rate: 16% (5 s), 26% (10 s), 35% (15 s). So the "implausible 36%" of §10.2 comes mostly from the 15 s window length, not only from labelling by place; the place rule and the 15 s time rule disagree on just 16% of fixations here, because a reader's fixations on one line also cluster in time. (On a session with many clicks on different lines — s21 — they disagree on 47%.) The important change is *what the labels mean*: time labels mark *when* the reader was confused and don't depend on line identity, so they can't leak position into a model. **Behaviour differs before clicks** (5 s window, paired per session): regression rate higher in 19/19 sessions with clicks (median +0.18), fixations longer in 17/19 (+0.13 s), saccades shorter in 19/19 (−95 px); Wilcoxon p < 0.001 each. Not caused by glances at the click button (0 fixations on it inside windows). Caveats: probably one reader; self-report clicks; fixations inside one window are not independent (hence per-session tests).
+- **Experiment 2 result — the honest baseline** (`train.py`). Unit: 10 s windows, step 1 s; positive = window ends 0–3 s before a click; windows containing a click dropped; 13 behavioural features, no position or line identity. 2,357 windows from the 20 old sessions, 166 positive (7%).
+
+  | Setup | Evaluation | ROC-AUC | PR-AUC (chance) |
+  |---|---|---|---|
+  | **Behavioural windows, XGBoost** | leave-one-session-out | **0.76** | **0.30** (0.07) |
+  | Behavioural windows, Random Forest | leave-one-session-out | 0.76 | 0.23 (0.07) |
+  | Regression rate alone (no ML) | — | 0.71 | 0.15 (0.07) |
+  | Same models, train 20 old → test s21 (new PC, 18 Hz) | external | 0.54–0.58 | 0.24–0.27 (0.20) |
+  | *Old setup* (position + AOI one-hot, place labels, per fixation), XGBoost | random 80/20 split | 0.87 | 0.84 (0.36) |
+  | *Old setup*, XGBoost | leave-one-session-out | 0.74 | 0.62 (0.36) |
+
+  Reading it: (1) Behaviour alone detects the run-up to a confusion click well above chance on **unseen sessions/texts** — AUC 0.76, PR-AUC 4× chance, AUC > 0.5 in 18/19 sessions with clicks. (2) ML adds a modest gain over regression rate alone (0.76 vs 0.71). (3) The old setup loses 0.13 AUC when moved from a random split to unseen sessions — that gap is the leakage made visible; its numbers are not comparable to ours otherwise (different labels, unit and prevalence). (4) The s21 test is near chance but tiny (46 windows, 9 positive) and differs in sampling rate and probably reader — inconclusive; it shows why Exp. 3 needs more readers and the same capture setup. (5) Window-length check (chosen 10 s before looking): 5 s → AUC 0.68–0.69, 10 s → 0.76, 15 s → 0.78–0.82. Longer windows help at 5–8 Hz. Strongest features (RF): leftward-regression rate, mean fixation duration, mean saccade amplitude, re-read rate. Caveats as Exp. 1, plus: one dataset, most likely one reader — **not yet a generalisation claim across people**.
 
 ---
 

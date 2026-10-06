@@ -1,0 +1,167 @@
+{
+  "config": {
+    "window_s": 10.0,
+    "step_s": 1.0,
+    "lead_s": 3.0,
+    "min_fixations": 2,
+    "seed": 42,
+    "features": [
+      "n_fix",
+      "fix_dur_mean",
+      "fix_dur_median",
+      "fix_dur_max",
+      "fix_time_frac",
+      "dispersion_mean",
+      "regr_rate",
+      "regr_left_rate",
+      "regr_up_rate",
+      "sacc_amp_mean",
+      "sacc_amp_median",
+      "gap_mean",
+      "reread_rate"
+    ]
+  },
+  "behavioural_LOSO": {
+    "RandomForest": {
+      "roc_auc": 0.755,
+      "pr_auc": 0.232,
+      "pr_auc_chance": 0.07,
+      "balanced_acc@0.5": 0.669,
+      "n": 2357,
+      "positives": 166,
+      "per_session_roc_auc_median": 0.784,
+      "sessions_auc_above_0.5": "18/19",
+      "per_session_roc_auc": {
+        "s01": 0.839,
+        "s02": 0.701,
+        "s03": 0.595,
+        "s04": 0.93,
+        "s05": 0.609,
+        "s06": 0.784,
+        "s07": 0.654,
+        "s08": 0.644,
+        "s09": 0.712,
+        "s10": 0.707,
+        "s11": 0.819,
+        "s12": 0.96,
+        "s13": 0.991,
+        "s14": 0.097,
+        "s16": 0.818,
+        "s17": 0.904,
+        "s18": 0.954,
+        "s19": 0.735,
+        "s20": 0.911
+      }
+    },
+    "XGBoost": {
+      "roc_auc": 0.763,
+      "pr_auc": 0.298,
+      "pr_auc_chance": 0.07,
+      "balanced_acc@0.5": 0.687,
+      "n": 2357,
+      "positives": 166,
+      "per_session_roc_auc_median": 0.784,
+      "sessions_auc_above_0.5": "18/19",
+      "per_session_roc_auc": {
+        "s01": 0.84,
+        "s02": 0.815,
+        "s03": 0.569,
+        "s04": 0.992,
+        "s05": 0.765,
+        "s06": 0.736,
+        "s07": 0.725,
+        "s08": 0.702,
+        "s09": 0.727,
+        "s10": 0.655,
+        "s11": 0.842,
+        "s12": 0.923,
+        "s13": 0.988,
+        "s14": 0.486,
+        "s16": 0.851,
+        "s17": 0.888,
+        "s18": 0.983,
+        "s19": 0.691,
+        "s20": 0.784
+      }
+    }
+  },
+  "baseline_regr_rate_only": {
+    "roc_auc": 0.714,
+    "pr_auc": 0.148,
+    "pr_auc_chance": 0.07,
+    "balanced_acc@0.5": 0.602,
+    "n": 2357,
+    "positives": 166
+  },
+  "s21_external": {
+    "RandomForest": {
+      "roc_auc": 0.536,
+      "pr_auc": 0.242,
+      "pr_auc_chance": 0.196,
+      "balanced_acc@0.5": 0.473,
+      "n": 46,
+      "positives": 9
+    },
+    "XGBoost": {
+      "roc_auc": 0.584,
+      "pr_auc": 0.266,
+      "pr_auc_chance": 0.196,
+      "balanced_acc@0.5": 0.5,
+      "n": 46,
+      "positives": 9
+    }
+  },
+  "rf_feature_importance": {
+    "regr_left_rate": 0.111,
+    "fix_dur_mean": 0.101,
+    "sacc_amp_mean": 0.097,
+    "reread_rate": 0.095,
+    "fix_dur_median": 0.093,
+    "regr_rate": 0.093,
+    "fix_time_frac": 0.088,
+    "sacc_amp_median": 0.085,
+    "fix_dur_max": 0.084,
+    "gap_mean": 0.064,
+    "dispersion_mean": 0.06,
+    "n_fix": 0.02,
+    "regr_up_rate": 0.011
+  },
+  "old_setup": {
+    "RandomForest random 80/20 split": {
+      "roc_auc": 0.873,
+      "pr_auc": 0.842,
+      "pr_auc_chance": 0.36,
+      "balanced_acc@0.5": 0.782,
+      "n": 311,
+      "positives": 112
+    },
+    "XGBoost random 80/20 split": {
+      "roc_auc": 0.87,
+      "pr_auc": 0.842,
+      "pr_auc_chance": 0.36,
+      "balanced_acc@0.5": 0.786,
+      "n": 311,
+      "positives": 112
+    },
+    "RandomForest leave-one-session-out": {
+      "roc_auc": 0.755,
+      "pr_auc": 0.673,
+      "pr_auc_chance": 0.36,
+      "balanced_acc@0.5": 0.696,
+      "n": 1553,
+      "positives": 559,
+      "per_session_roc_auc_median": 0.798,
+      "sessions_auc_above_0.5": "18/19"
+    },
+    "XGBoost leave-one-session-out": {
+      "roc_auc": 0.736,
+      "pr_auc": 0.623,
+      "pr_auc_chance": 0.36,
+      "balanced_acc@0.5": 0.687,
+      "n": 1553,
+      "positives": 559,
+      "per_session_roc_auc_median": 0.799,
+      "sessions_auc_above_0.5": "18/19"
+    }
+  }
+}

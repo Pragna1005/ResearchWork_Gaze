@@ -149,7 +149,7 @@ Output: `recordings/<participant>_<text>_<YYYYmmdd-HHMMSS>/`
 | `aoi.csv`, `aoi_debug.png` | the AOIs captured for this session |
 | `meta.json` | participant, text, duration, achieved capture/gaze rate (Hz), frames with bubble, screen size and display scaling, `gaze_core` parameters, git commit |
 
-New sessions are picked up automatically by `sessions.py`, so `python rebuild_fixations.py` and `python label.py` process them with everything else.
+Right after each recording run `python check_session.py` (quality check: gaze rate, tracking loss, fixations on text, AOIs, clicks, screen setup → PASS/WARN/FAIL, saved as `qc.json`). For study sessions follow [`PROTOCOL.md`](PROTOCOL.md). New sessions are picked up automatically by `sessions.py`, so `python rebuild_fixations.py` and `python label.py` process them with everything else.
 
 Fixation rule (`gaze_core.py`): gaze held within **25 px** for ≥ **0.25 s**; a bubble dropout under 0.5 s (a blink) doesn't end a fixation. Regression = ≥ 25 px leftward on the same line, or up to an earlier line. The capture loop has no fixed sleep or per-frame printing: **~31 frames/s on the lab PC vs ~18 for `cnn.py`.** 15 s scanpath PNGs are no longer drawn live (they can be rendered from `gaze.csv`).
 
@@ -274,7 +274,7 @@ Measured while reproducing stages 3–7 and auditing the old data. Status in bra
 
 **Experiment 2 — Behavioral features only, honest evaluation.** Drop `fix_x`, `fix_y`, `distance`, and all AOI one-hot columns. Keep/add: duration, dispersion, corrected regression flag (leftward *or* upward), corrected saccade duration (current start − previous *end*), saccade amplitude, re-reading count per line. Aggregate per 10–15 s window (counts, means, rates). Train RF/XGBoost; evaluate with **leave-one-text-out** and, once multiple readers exist, **leave-one-participant-out**. Commit `train.py` and the metrics. *Expect accuracy to drop versus the old model — that drop is the honest baseline, and it is the result to report.*
 
-**Experiment 3 — Multi-text, multi-participant dataset.** ≥ 3 texts of graded difficulty (easy / medium / hard — hard texts generate real confusion events), ≥ 10 participants, calibration per participant (§4.3), fixed protocol: calibrate → AOI extract → read → click when confused → rest. Keep every session's raw logs, and record participant ID + text ID in the filenames.
+**Experiment 3 — Multi-text, multi-participant dataset.** ≥ 3 texts of graded difficulty (easy / medium / hard — hard texts generate real confusion events), ≥ 10 participants, calibration per participant (§4.3), fixed protocol: calibrate → AOI extract → read → click when confused → rest. Keep every session's raw logs, and record participant ID + text ID in the filenames. **Step-by-step checklist, participant instructions, text order and session log: [`PROTOCOL.md`](PROTOCOL.md).** Run `python check_session.py` after every recording.
 
 **Experiment 4 — Real gaze stream.** Get SDK-level access (Tobii Pro Spark or a Pro SDK-licensed device): 60+ Hz gaze plus **pupil diameter**, proper I-VT fixation/saccade classification, and add pupil-dilation features to Experiment 2's set. If stuck with the Ghost bubble, first measure and report its true sampling rate (timestamps in `gaze.csv`).
 

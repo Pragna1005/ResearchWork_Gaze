@@ -229,6 +229,21 @@ Collects gaze + mouse + per-paragraph helpfulness ratings on real Wikipedia page
 7. **Everything is absolute screen pixels.** Any change to monitor, resolution, display scaling, window position, zoom, or a single scroll of the page invalidates the AOI file. Design experiments so the full text fits on one static screen.
 8. **Code hygiene:** `cnn.py` contains no CNN; `feature.py` and `test.py` are ~half dead commented-out code; the green-bubble detector is copy-pasted into six files; filenames are hand-edited constants that drift between scripts (§5 warning).
 
+### 10.9 Findings from the October 2026 reproduction (branch `intern-work`)
+
+Measured while reproducing stages 3–7 and auditing the old data. Status in brackets.
+
+- **The 20 training sessions were appended into one file.** `cnn.py` opens `fixation.csv` in append mode, so all sessions (11–13 July 2025) went under the first session's header; 3 rows even have an extra column. Each session read a *different page* with its own 18-line AOI file, so the column `AOI_5` means "the 4th line on screen" — a different sentence in every session. The shipped XGBoost model takes **72% of its gain from these AOI columns** (+9% from `fix_x`/`fix_y`/`distance`): it learned *which screen line*, not *how the eyes move* (§10.1). *[Fixed for analysis: `rebuild_fixations.py` writes one file per session. The collection script still appends — fix before new data.]*
+- **The old data was sampled at only 5–8 Hz** (not 10–20 Hz as §10.4 says); the new PC gets ~18 Hz. At 5–8 Hz a 0.25 s fixation rests on 2–3 samples.
+- **`regression_flag` was mostly noise, not just incomplete.** It fired on *any* upward move, including 1-px jitter: 38% of all fixations were flagged, and 89% of those flags moved up ≤ 25 px (median 6 px) — same line. It also missed 115 of 180 genuine leftward regressions. *[Fixed in `gaze_core.py`: leftward ≥ 25 px on the same line, or up to an earlier line → 15% of fixations.]*
+- **`saccade_before_duration` was start-to-start** (median ≈ 1.3 s); corrected end-to-start median ≈ 0.65 s. At these sampling rates it is the *time between fixations*, not a saccade duration. *[Fixed in `gaze_core.py`.]*
+- **One missed screenshot discarded the fixation in progress.** `cnn.py` reset on any frame without a bubble (a blink, a flicker). *[Fixed in `gaze_core.py`: only a gap > 0.5 s ends a fixation.]*
+- **`gaze_core.py` is validated against the original:** run on the old raw gaze files with the original reset rule, it reproduces 99.1% of the 1,553 fixations `cnn.py` logged (`python validate_gaze_core.py`).
+- **`test.py` as shipped crashes**: `test_data_logs/aoi_lines_test2.csv` has 19 AOIs; the model needs exactly 18. It also predicts twice per fixation, the first time with a hardcoded duration of 0.25 s.
+- **A confusion click made while looking outside every AOI is lost**: it is logged with `AOI_ID = None` and `label.py` skips it. (Time-window labelling — §11 Exp. 1 — does not need the AOI, so this goes away.)
+- **`aoi.py`** takes its screenshot instantly (run it as `python -c "import time; time.sleep(5); exec(open('aoi.py').read())"`), always overwrites the same filename, and OCRs browser tabs, the address bar and the taskbar — use a full-screen (F11) page.
+- **`label.py` reads `CONFUSION/fixation.csv`** (an old file), not the session's `demo_video_logs/fixation.csv`.
+
 ---
 
 ## 11. Next set of experiments (in this order)

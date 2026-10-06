@@ -128,7 +128,7 @@ def old_setup():
     old = pd.read_csv("fixation_label_final.csv")
     start = to_seconds(old.start_time)
     old["session"] = "?"
-    for s in SESSIONS[:20]:
+    for s in (s for s in SESSIONS if s["group"] == "old2025"):
         t = to_seconds(pd.read_csv(s["gaze"]).timestamp)
         old.loc[(start >= t.min()) & (start <= t.max()), "session"] = s["session"]
     feats = [c for c in old.columns if c not in ("start_time", "end_time", "fix_start_ts", "label", "session")]
@@ -146,8 +146,10 @@ def old_setup():
 
 
 if __name__ == "__main__":
-    data = pd.DataFrame([r for s in SESSIONS for r in build_windows(s)])
-    train_data = data[data.session != "s21"].reset_index(drop=True)
+    # Experiment 2 = the 20 old sessions + s21 only; new recordings get their own analysis
+    data = pd.DataFrame([r for s in SESSIONS if s["group"] in ("old2025", "repro") for r in build_windows(s)])
+    old_ids = {s["session"] for s in SESSIONS if s["group"] == "old2025"}
+    train_data = data[data.session.isin(old_ids)].reset_index(drop=True)
     s21 = data[data.session == "s21"].reset_index(drop=True)
     print(f"windows: {len(train_data)} from 20 old sessions ({train_data.label.sum()} positive), "
           f"{len(s21)} from s21 ({s21.label.sum()} positive)")

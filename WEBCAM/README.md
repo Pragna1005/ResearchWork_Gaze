@@ -110,7 +110,7 @@ Known bugs to be aware of when reading the current code:
 **W4 — Bug fixes.** Deduplicate regressions (track the last scored fixation pair, or only test the newest fixation against its predecessor); make score decay time-based; make the gaze buffer robust to dropped frames (timestamps, not counts).
 
 **W5 — The validation experiment: webcam vs. Tobii, simultaneously.** This is the experiment that decides whether webcam data is usable, and the two systems don't conflict — the webcam never reads the screen, so Tobii Ghost's bubble can stay on:
-1. One participant, one machine: open the webcam app (after W1–W3) on the reading text, run `CONFUSION/cnn.py` recording the Ghost bubble at the same time. Calibrate both first.
+1. One participant, one machine: open the webcam app (after W1–W3) on the reading text, run `CONFUSION/collect.py` recording the Ghost bubble at the same time. Calibrate both first.
 2. Both log wall-clock timestamps; align the two streams offline.
 3. Report: mean gaze error webcam-vs-Tobii (px and degrees), fixation match rate (webcam fixation within X px and ±100 ms of a Tobii fixation), regression precision/recall with Tobii as ground truth, and AOI-assignment agreement at paragraph level.
 4. Repeat for ≥ 5 participants. Publish the numbers in this README. If paragraph-level AOI agreement is above ~80%, the webcam track is validated for block-granularity experiments.

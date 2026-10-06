@@ -20,7 +20,7 @@ old = pd.read_csv(f"{D}/fixation.csv", usecols=range(11))  # first 11 cols are t
 old["start_s"] = to_seconds(old.start_time)
 
 n_old = n_new = n_found = n_same = 0
-for s in SESSIONS[:20]:
+for s in (s for s in SESSIONS if s["group"] == "old2025"):
     g = pd.read_csv(s["gaze"])
     t = to_seconds(g.timestamp)
     new = pd.DataFrame(fixations_from_gaze(t, g.gaze_x, g.gaze_y,

@@ -11,10 +11,12 @@ New sessions recorded with collect.py are found automatically in recordings/.
 "group" says which dataset a session belongs to: "old2025" (the 20 sessions of
 Experiments 1-2), "repro" (s21) or "new".
 """
+import datetime
 import glob
 import json
 import os
 
+import numpy as np
 import pandas as pd
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -55,11 +57,14 @@ for _meta_path in sorted(glob.glob(os.path.join(RECORDINGS, "*", "meta.json"))):
 
 
 def to_seconds(timestamps):
-    """'YYYY-mm-dd HH:MM:SS.ffffff' strings -> float seconds since epoch.
+    """'YYYY-mm-dd HH:MM:SS.ffffff' local-time strings -> float seconds since epoch.
 
-    Explicit, because pandas may store datetimes in us or ns depending on version.
+    The capture scripts write local wall-clock time, so the strings are read as
+    local time - this matches the true epoch 't' column collect.py also writes.
+    (Reading them as UTC put every time 5.5 h off in India.) Done per value with
+    datetime, not pandas, whose datetime unit (us/ns) varies between versions.
     """
-    return (pd.to_datetime(timestamps) - pd.Timestamp("1970-01-01")).dt.total_seconds().to_numpy()
+    return np.array([datetime.datetime.fromisoformat(str(ts)).timestamp() for ts in timestamps])
 
 
 def load_aois(path):

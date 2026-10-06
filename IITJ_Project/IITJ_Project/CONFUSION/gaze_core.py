@@ -135,6 +135,8 @@ class FixationDetector:
             "start_ts": self._hold_start, "end_ts": end_t,
             "duration": end_t - self._hold_start,
             "dispersion": max(math.hypot(px - mx, py - my) for px, py in self._points),
+            # samples after the fixation was confirmed, i.e. excluding its first
+            # GAZE_HOLD_TIME s (as in cnn.py; dispersion uses the same samples)
             "n_samples": len(self._points),
         }
         prev = self._prev

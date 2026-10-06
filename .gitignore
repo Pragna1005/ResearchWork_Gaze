@@ -1,0 +1,6 @@
+# demo videos: already shipped inside working_video.zip (LFS)
+working_video/
+
+# Python caches
+__pycache__/
+*.pyc

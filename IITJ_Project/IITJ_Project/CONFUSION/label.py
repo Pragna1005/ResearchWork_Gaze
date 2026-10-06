@@ -1,15 +1,15 @@
 import pandas as pd
 
-fixation_df = pd.read_csv("fixation.csv")
+fixation_df = pd.read_csv("demo_video_logs/fixation.csv")
 yes_click_df = pd.read_csv("demo_video_logs/popup_yes_clicks/yes_click_log1.csv")
 
-# fixation_df.loc[2:, 'label'] = 0
+fixation_df['label'] = 0
 
 for _, click_row in yes_click_df.iterrows():
     target_aoi = click_row['AOI_ID']
 
     if target_aoi in fixation_df.columns:
-        for i in range(2,33): 
+        for i in fixation_df.index:
             if str(fixation_df.at[i, target_aoi]) == "True":
                 fixation_df.at[i, 'label'] = 1
     else:

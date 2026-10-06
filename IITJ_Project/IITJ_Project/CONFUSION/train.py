@@ -69,6 +69,7 @@ def window_features(f, start):
 def build_windows(session):
     fx = pd.read_csv(os.path.join(OUT, session["session"], "fixations.csv"))
     fx["regression_type"] = fx.regression_type.fillna("")
+    fx["aoi"] = fx.aoi.fillna("None")  # pandas reads the text "None" as NaN
     clicks = to_seconds(pd.read_csv(session["clicks"]).timestamp)
     rows = []
     for start in np.arange(fx.start_ts.min(), fx.end_ts.max() - WINDOW_S, STEP_S):

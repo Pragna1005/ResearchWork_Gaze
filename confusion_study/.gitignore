@@ -1,0 +1,17 @@
+# participant data and test sessions: never commit
+data/
+test_runs/
+TEST_*/
+
+# generated paragraph previews
+previews/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db

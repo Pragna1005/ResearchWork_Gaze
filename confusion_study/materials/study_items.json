@@ -1,0 +1,1109 @@
+{
+ "note": "Built by build_materials.py. Texts are unmodified. OneStop answer options are stored with the correct answer first; the app shuffles them on screen.",
+ "onestop_articles": [
+  {
+   "article": "A00",
+   "title": "101-Year-Old Bottle Message",
+   "paragraphs": [
+    {
+     "p_index": 0,
+     "Adv": {
+      "text": "Angela Erdmann never knew her grandfather. He died in 1946, six years before she was born. But, on Tuesday 8th April, 2014, she described the extraordinary moment when she received a message in a bottle, 101 years after he had lobbed it into the Baltic Sea. Thought to be the world’s oldest message in a bottle, it was presented to Erdmann by the museum that is now exhibiting it in Germany.",
+      "n_words": 71,
+      "fk_grade": 8.4,
+      "rare_word_share": 0.046
+     },
+     "Ele": {
+      "text": "Angela Erdmann never knew her grandfather. He died in 1946, six years before she was born. But, on Tuesday April 28th, 2014, she described the extraordinary moment when she received a message in a bottle, 101 years after he threw it into the Baltic Sea. The bottle is possibly the world’s oldest message in a bottle. It was presented to Erdmann by the museum that is now exhibiting it in Germany.",
+      "n_words": 71,
+      "fk_grade": 7.6,
+      "rare_word_share": 0.031
+     },
+     "question": {
+      "q_index": 0,
+      "text": "Who threw the bottle into the Baltic Sea?",
+      "options": [
+       "Angela Erdmann’s grandfather",
+       "Angela Erdmann",
+       "A museum worker",
+       "A fisherman"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 1,
+     "Adv": {
+      "text": "“It was very surprising,” Angela Erdmann, 62, said, recalling how she found out about the bottle. “A man stood at my door and told me he had post from my grandfather. He then told me that a message in a bottle had been found and that the name that was on the card was that of my grandfather.” Her visitor was a genealogical researcher who had managed to track her down in Berlin after the letter was given to the International Maritime Museum in the northern port city of Hamburg.",
+      "n_words": 90,
+      "fk_grade": 10.1,
+      "rare_word_share": 0.024
+     },
+     "Ele": {
+      "text": "“It was very surprising,” Angela Erdmann, 62, said, when she described how she found out about the bottle. “A man came to my door and told me he had post from my grandfather. Then, he told me that someone had found a message in a bottle and that on the card was my grandfather’s name.” Her visitor was a family-tree researcher who found her in Berlin after someone gave the letter to a museum in the northern city of Hamburg.",
+      "n_words": 80,
+      "fk_grade": 8.6,
+      "rare_word_share": 0.014
+     },
+     "question": {
+      "q_index": 0,
+      "text": "What did Angela’s visitor deliver?",
+      "options": [
+       "News of the discovery of the bottle",
+       "A message from the post office",
+       "A letter from a museum in Hamburg",
+       "A package for Angela"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 2,
+     "Adv": {
+      "text": "The brown beer bottle, which had been in the water for 101 years, was found in the catch of Konrad Fischer, a fisherman, who had been out in the Baltic Sea off the northern city of Kiel. Holger von Neuhoff, curator for ocean and science at the museum, said this bottled message was the oldest he had come across. “There are documents that have been found without the bottle that are older and are in the museum,” he said. “But, with the bottle and the document, this is certainly the oldest at the moment. It is in extremely good condition.”",
+      "n_words": 100,
+      "fk_grade": 8.2,
+      "rare_word_share": 0.041
+     },
+     "Ele": {
+      "text": "The brown beer bottle was in the water for 101 years. A fisherman found it in the Baltic Sea off the northern city of Kiel. Holger von Neuhoff, a curator at the museum, said this bottled message was the oldest he had ever seen. “There are documents without the bottle that are older and they are in the museum,” he said. “But, with the bottle and the document, this is certainly the oldest at the moment. It is in very good condition.”",
+      "n_words": 82,
+      "fk_grade": 6.0,
+      "rare_word_share": 0.038
+     },
+     "question": {
+      "q_index": 0,
+      "text": "How was the bottle discovered?",
+      "options": [
+       "A fisherman discovered it",
+       "It washed up on the shore of Kiel",
+       "Holger von Neuhoff discovered it",
+       "A boy discovered it while playing in the sea"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 3,
+     "Adv": {
+      "text": "Researchers believe Erdmann’s grandfather, Richard Platz, threw the bottle in the sea while on a hike with a nature appreciation group in 1913. He was 20 years old at the time. Much of the postcard was indecipherable, although the address in Berlin on the front of the card was legible, as was the author’s polite request that the note be sent by the finder to his home address. “He also included two stamps from that time that were also in the bottle, so the finder would not incur a cost,” Erdmann said. “But he did not think it would take 101 years.” She said she was moved by the arrival of the message, although she had not known her grandfather because he died, at the age of 54, six years before she was born.",
+      "n_words": 134,
+      "fk_grade": 8.7,
+      "rare_word_share": 0.039
+     },
+     "Ele": {
+      "text": "Researchers believe that Erdmann’s grandfather, Richard Platz, threw the bottle into the sea when he was on a hike in 1913. He was 20 years old at the time. A lot of the message on the postcard was impossible to read, but the address in Berlin on the front of the card was legible. Platz asked the person who found it to send the postcard to his home address. “He also included two stamps from that time that were also in the bottle, so the finder would not have to pay for postage,” Erdmann said. “But he did not think it would take 101 years.” She said she was moved by the arrival of the message, but she did not know her grandfather because he died, at the age of 54, six years before she was born.",
+      "n_words": 137,
+      "fk_grade": 6.8,
+      "rare_word_share": 0.038
+     },
+     "question": {
+      "q_index": 0,
+      "text": "According to researchers, when did Richard Platz throw the bottle into the sea?",
+      "options": [
+       "At the age of 20",
+       "Before 1913",
+       "At the age of 54",
+       "Before 1901"
+      ],
+      "correct": 0
+     }
+    }
+   ]
+  },
+  {
+   "article": "A01",
+   "title": "A New Form of Lie Detector Test",
+   "paragraphs": [
+    {
+     "p_index": 0,
+     "Adv": {
+      "text": "Police and intelligence agencies around the world have, for almost 100 years, relied on polygraphs as lie detectors to help convict criminals or unearth spies and traitors. The polygraph is beloved of the movies, with countless dramatic moments showing the guilty sweating profusely as they are hooked up. But the invention could soon be defunct. Researchers in Britain and the Netherlands have made a breakthrough, developing a method with a success rate in tests of over 70% that could be in use in police stations around the world within a decade. Rather than relying on facial tics, talking too much or waving of arms – all seen as tell-tale signs of lying – the new method involves monitoring full-body motions to provide an indicator of signs of guilty feelings.",
+      "n_words": 129,
+      "fk_grade": 12.9,
+      "rare_word_share": 0.041
+     },
+     "Ele": {
+      "text": "Police and intelligence agencies around the world have, for almost 100 years, used the polygraph, a lie-detector test, to help catch criminals and spies. But, now, researchers in Britain and the Netherlands have developed a new method, which is correct (in tests) over 70% of the time. Police stations around the world might begin using this new method within ten years. It doesn’t monitor movements in the face, talking too much or waving arms – all signs that someone is lying. The new method monitors movements in the whole body, which can show that the person is feeling guilty.",
+      "n_words": 99,
+      "fk_grade": 9.7,
+      "rare_word_share": 0.011
+     },
+     "question": {
+      "q_index": 0,
+      "text": "When is the new lie detection method expected to work with over 70% accuracy?",
+      "options": [
+       "It has already achieved this accuracy level in tests",
+       "Within ten years",
+       "Once it is modified to monitor movements of the entire body",
+       "It is currently not known"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 1,
+     "Adv": {
+      "text": "The polygraph is widely used in the US in criminal and other cases and for security clearance for the FBI and CIA but is much less popular in Europe. There has been a lot of skepticism in the scientific and legal communities about its reliability. By contrast, the new method developed by the researchers has performed well in experiments. The basic premise is that liars fidget more and so the use of an all-body motion suit – the kind used in films to create computer-generated characters – will pick this up. One of the research team, Ross Anderson, said: “Decades of deception research show that the interviewer will tell truth from lies only slightly better than random.” He said the new method, by contrast, achieved a reliability rating of over 70%. In some tests, the team has already achieved more than 80%. Anderson said: “The takeaway message is that guilty people fidget more and we can measure this robustly.”",
+      "n_words": 159,
+      "fk_grade": 10.4,
+      "rare_word_share": 0.026
+     },
+     "Ele": {
+      "text": "The polygraph is often used in the US in criminal cases and by the FBI and CIA but is much less popular in Europe. Many people do not believe that it is reliable. The basic idea behind the new method is that liars fidget more and that an all-body motion suit – the kind used in films to create computer-generated characters – will record this. The new method is over 70% reliable – the polygraph is only 55% reliable. In some tests, the success rate of the new method was more than 80%. Ross Anderson, one of the research team, said: “Guilty people fidget more and we can now measure this.”",
+      "n_words": 111,
+      "fk_grade": 8.3,
+      "rare_word_share": 0.038
+     },
+     "question": {
+      "q_index": 0,
+      "text": "What can an all-body suit be used for?",
+      "options": [
+       "Create computer-generated characters",
+       "Influence liars to fidget more",
+       "Protect FBI and CIA agents",
+       "Protect the body in cold weather"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 2,
+     "Adv": {
+      "text": "The polygraph was created in 1921 by policeman John Larson, based on research by the psychologist William Marston. It records changes in pulse, blood pressure, sweating and breathing to ascertain whether a subject is lying. While cinema depictions suggest the device is near-infallible, the US Supreme Court ruled, in 1998, that there was no consensus that the polygraph was reliable, a finding supported by the US National Academy of Scientists in 2003.",
+      "n_words": 72,
+      "fk_grade": 13.0,
+      "rare_word_share": 0.075
+     },
+     "Ele": {
+      "text": "The polygraph was created in 1921 by policeman John Larson, based on research by the psychologist William Marston. It records changes in pulse, blood pressure, sweating and breathing to find out if someone is lying. In movies, the polygraph is always correct but, in 1998, the US Supreme Court decided that there was no agreement that the polygraph was reliable. The US National Academy of Scientists said the same thing in 2003.",
+      "n_words": 72,
+      "fk_grade": 9.1,
+      "rare_word_share": 0.058
+     },
+     "question": {
+      "q_index": 0,
+      "text": "Who was John Larson?",
+      "options": [
+       "A policeman who developed a lie-detection method",
+       "A psychologist who created the polygraph",
+       "A US Supreme Court judge who ruled on the reliability of the polygraph",
+       "A 21st century researcher working on new methods of lie detection"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 3,
+     "Adv": {
+      "text": "The experiment carried out by Anderson and his colleagues involved 180 students and employees at Lancaster University, of which half were told to tell the truth and half to lie. They were each paid £7.50 for their participation in the 70-minute experiment, involving two tests. Some were interviewed about a computer game Never End, which they played for seven minutes, while others lied about playing it, having only been shown notes about it. The second test involved a lost wallet containing £5. Some were asked to bring the wallet to a lost-and-found box while others hid it and lied about it.",
+      "n_words": 101,
+      "fk_grade": 10.4,
+      "rare_word_share": 0.0
+     },
+     "Ele": {
+      "text": "The tests Anderson and his colleagues did involved 180 students and employees at Lancaster University. Half of the people were told to tell the truth and half to lie. The researchers interviewed some of the people about a computer game called Never End that they played for seven minutes. Others lied about playing it. The second test involved a lost wallet with £5 inside. Some people had to bring the wallet to a lost-and-found box. Others hid it and lied about it.",
+      "n_words": 82,
+      "fk_grade": 6.4,
+      "rare_word_share": 0.0
+     },
+     "question": {
+      "q_index": 0,
+      "text": "What did participants lie about in the Never End game experiment?",
+      "options": [
+       "Whether they played the game",
+       "The duration of the game",
+       "Being paid £5 to play the game",
+       "Their position on the game’s leaderboar"
+      ],
+      "correct": 0
+     }
+    }
+   ]
+  },
+  {
+   "article": "A05",
+   "title": "Bright Future for Astrotourism",
+   "paragraphs": [
+    {
+     "p_index": 0,
+     "Adv": {
+      "text": "On Black Fell, looking down on Northumberland’s beautiful Kielder Water reservoir, a group of people wait in a car park next to a strange wooden building with a minimalist design beamed down from the future. This is Kielder Observatory, the center of Britain’s nascent astrotourism industry. And those waiting outside were the lucky ones. Many more had applied for a night of stargazing at the observatory but numbers are strictly limited. Inside, next to a woodburner and under dimmed lights, the observatory’s founder and lead astronomer, Gary Fildes, a former bricklayer with Tarzan hair, delivers a pep talk to his colleagues. The team discusses the prospect of seeing the northern lights but Fildes is doubtful. Instead, they decide to train their powerful telescopes on Jupiter and Venus and later to pick out stars such as Capella and Betelgeuse. An additional attraction is the appearance of the International Space Station.",
+      "n_words": 149,
+      "fk_grade": 11.2,
+      "rare_word_share": 0.106
+     },
+     "Ele": {
+      "text": "On the top of a hill, above Northumberland’s beautiful Kielder Water lake, a group of people are waiting in a car park next to a strange wooden building. They are here because of the darkness and this is Kielder Observatory, the center of Britain’s latest industry – astrotourism. The people who are waiting outside are lucky. Many more people apply for a night of stargazing at the observatory but not everyone can come because numbers are strictly limited. Inside, the observatory’s founder and lead astronomer, Gary Fildes, speaks to his colleagues. The team discusses that they might see the northern lights but Fildes doesn’t think they will. Instead, they decide to use their powerful telescopes to look at Jupiter and Venus and, later, to find stars such as Capella and Betelgeuse. An extra attraction is the appearance of the International Space Station.",
+      "n_words": 142,
+      "fk_grade": 10.2,
+      "rare_word_share": 0.066
+     },
+     "question": {
+      "q_index": 0,
+      "text": "What is located next to the Kielder Observatory?",
+      "options": [
+       "A car park",
+       "A wooden building",
+       "Capella and Betelgeuse",
+       "A research center"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 1,
+     "Adv": {
+      "text": "“Remember,” Fildes tells his team, “it’s about interaction, it’s about entertainment, it’s about inspiring people.” Fildes, 49, is at the forefront of the UK’s burgeoning astrotourism industry. The pivotal moment for Northumberland came in 2013 when the entire national park housing Hadrian’s Wall, along with Kielder Water and Forest Park, some 1,500 square kilometers, was awarded Dark Sky Park status, the only one in England. Dark Sky Parks are rare. The 2013 Star Count revealed that only 5% of the UK population can see more than 31 stars on a good night. The Tucson, Arizona-based International Dark-Sky Association (IDA) confers the status only on places that take major steps to avoid light pollution. Recipients must also prove their night skies are sufficiently dark. In Northumberland Dark Sky Park, as the area was rebadged, it is so dark that Venus casts a shadow on the Earth.",
+      "n_words": 145,
+      "fk_grade": 10.0,
+      "rare_word_share": 0.058
+     },
+     "Ele": {
+      "text": "Fildes is a leading figure in the UK’s growing astrotourism industry. The key moment for Northumberland came in 2013 when the entire national park, about 1,500 square kilometers in area, got Dark Sky Park status. It is the only one in England. Dark Sky Parks are rare. The 2013 Star Count showed that only 5% of the UK population can see more than 31 stars on a clear night. The International Dark-Sky Association (IDA) gives the status of Dark Sky Park only to places that take big steps to prevent light pollution. The areas must also prove their night skies are very dark. In Northumberland Dark Sky Park, it is so dark that Venus casts a shadow on the Earth.",
+      "n_words": 120,
+      "fk_grade": 6.7,
+      "rare_word_share": 0.018
+     },
+     "question": {
+      "q_index": 0,
+      "text": "What did the 2013 Star Count find?",
+      "options": [
+       "That only a small portion of the population could see over 31 stars on a clear night",
+       "That 5% of the UK population goes out to look at stars",
+       "That Fieldes is the leading figure in the UK’s astrotourism industry",
+       "That the UK is one of the best countries in the world for stargazing"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 2,
+     "Adv": {
+      "text": "Duncan Wise, visitor development officer for the Northumberland National Park Authority, helped to spearhead the campaign for dark-sky status. “We tend to look at landscape as everything up to the horizon,” Wise said. “But what about what’s above it?” Wise and others spent years drawing up their submission to the IDA, collecting reams of light readings and forming an alliance of local councils, parks’ bodies and community groups to produce an exterior lighting master plan that influences the construction of new developments in the area. Their efforts have been vindicated. Many of the 1.5 million who visit Northumberland each year are now aware of its Dark Sky status. “We get a lot of people coming here to see the sky now,” says the man at the car-hire firm in Newcastle. “They come in autumn and winter, when it’s darkest. Good for the local hotels as they get business all year round now.”",
+      "n_words": 152,
+      "fk_grade": 8.9,
+      "rare_word_share": 0.02
+     },
+     "Ele": {
+      "text": "Duncan Wise, visitor development officer for the Northumberland National Park, helped to lead the campaign for dark-sky status. “We usually think that 'landscape' is everything up to the horizon,” Wise said. “But what about what’s above the horizon?” Wise and others spent years preparing their application to the IDA – they collected thousands of light readings. Because of their hard work, many of the 1.5 million tourists who visit Northumberland each year are now aware of its Dark Sky status. “A lot of people come here to see the sky now,” says a man who works for a local car-hire company. “They come in autumn and winter, when it’s darkest. It’s good for the local hotels because tourists come all year round now.”",
+      "n_words": 123,
+      "fk_grade": 7.9,
+      "rare_word_share": 0.0
+     },
+     "question": {
+      "q_index": 0,
+      "text": "According to Duncan Wise, what do people normally consider as “landscape”?",
+      "options": [
+       "Everything below the horizon",
+       "Everything below and above the horizon",
+       "Everything that can be appreciated all year round",
+       "Everything above sea level"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 3,
+     "Adv": {
+      "text": "Wise acknowledges that Northumberland needs to do more to capitalize on its scarce resource and believes the region needs a couple more observatories to ensure that visitors will see what they came for. A £14m national landscape discovery center, which he describes as the north’s answer to the Eden Project, will have an observatory when it is completed in a couple of years. Fildes has grand designs. He is planning Britain’s first “astrovillage,” one that would house the largest public observatory in the world and boast a 100-seat auditorium, a 100-seat planetarium, a one-meter aperture telescope, and radiomagnetic and solar telescopes. The multimillion-pound project would feature a hotel and draw in 100,000 people a year, four times the number currently able to use the observatory. Fildes is cryptic about his backers but believes the astrovillage will be a reality by 2018.",
+      "n_words": 141,
+      "fk_grade": 13.2,
+      "rare_word_share": 0.062
+     },
+     "Ele": {
+      "text": "Wise agrees that Northumberland needs to do more to take advantage of its dark skies, which are very rare. He believes the region needs more observatories to make sure that visitors will see what they came for. A new £14-million national landscape discovery center will have an observatory when it is completed in a couple of years. Fildes has big ambitions. He is planning Britain’s first “astrovillage” – it would have the largest public observatory in the world, a 100-seat auditorium, a 100-seat planetarium, and radiomagnetic and solar telescopes. The multimillion-pound project would also have a hotel and attract 100,000 visitors a year – that is four times the number that are currently able to use the observatory. Fildes believes the astrovillage will be a reality by 2018.",
+      "n_words": 128,
+      "fk_grade": 10.6,
+      "rare_word_share": 0.068
+     },
+     "question": {
+      "q_index": 0,
+      "text": "Why does Wise believe Northumberland needs more observatories?",
+      "options": [
+       "So that more visitors will be able to view the dark skies",
+       "So that the government will invest £14 million in the region",
+       "So that 100,000 people can visit Northumberland by 2018",
+       "So that the UK can attract more tourists from other countries"
+      ],
+      "correct": 0
+     }
+    }
+   ]
+  },
+  {
+   "article": "A08",
+   "title": "Google Introduces its Driverless Car",
+   "paragraphs": [
+    {
+     "p_index": 0,
+     "Adv": {
+      "text": "Unveiling a car with a top speed of 25mph, two seats and no pedals or steering wheel might not make much of an impression at a motor show. But Google, in the US, sent a minor earthquake through the car and taxi industries as it unveiled the latest version of its driverless car. The electrically powered vehicle, which Google has begun testing around its headquarters in Mountain View, California, dispenses with all the normal controls, including foot pedals. Instead, it has a smartphone app that summons it and tells it the destination, and a single STOP button mounted between the two front-facing seats in case the occupants need to override the computer.",
+      "n_words": 112,
+      "fk_grade": 13.2,
+      "rare_word_share": 0.028
+     },
+     "Ele": {
+      "text": "A car with a maximum speed of 25 miles per hour, two seats and no pedals or steering wheel does not sound very interesting. But Google, in the US, shocked the car and taxi industries when it unveiled the latest version of its driverless car. Google has begun testing the electric car at its headquarters in Mountain View, California. The car does not have all the normal car controls, such as foot pedals. Instead, it has a smartphone app that calls it and tells it the destination, and a STOP button between the two seats in case the passengers need to override the computer.",
+      "n_words": 104,
+      "fk_grade": 9.4,
+      "rare_word_share": 0.01
+     },
+     "question": {
+      "q_index": 0,
+      "text": "What kind of reaction did Google’s new driverless car draw from the automobile industry?",
+      "options": [
+       "It drew strong attention from the industry",
+       "The industry wasn’t impressed and did not find it interesting at first, but was shocked later",
+       "It drew mostly excitement, but also disappointment at its lack of controls",
+       "It drew considerable skepticism from safety experts"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 1,
+     "Adv": {
+      "text": "The car, in fact, takes over all the tasks of navigation, steering, acceleration and braking. The company is building about 100 prototypes for a two-year test. The company’s co-founder, Sergey Brin, told a conference in California that the vehicle was “still in the prototype stage” but that the project was “about changing the world for people who are not well served by transportation today.” He said of the car: “You’re just sitting there; no steering wheel, no pedals. For me, it was very relaxing. About ten seconds after getting in, I forgot I was there. It reminded me of catching a chairlift by yourself – a bit of solitude I found really enjoyable.”",
+      "n_words": 113,
+      "fk_grade": 8.8,
+      "rare_word_share": 0.019
+     },
+     "Ele": {
+      "text": "The company is building about 100 prototypes for a two-year test. The company’s co-founder, Sergey Brin, said that the vehicle was still just a prototype. He says that they want to change the world for people who do not find it easy to use transportation today. Talking about the car, he said, “You’re just sitting there; no steering wheel, no pedals. For me, it was very relaxing. About ten seconds after getting into the car, I forgot I was there. I found it really fun.”",
+      "n_words": 85,
+      "fk_grade": 6.1,
+      "rare_word_share": 0.013
+     },
+     "question": {
+      "q_index": 0,
+      "text": "What does Brin say his company’s motivation is for making this car?",
+      "options": [
+       "Helping people who do not have good transportation today",
+       "Changing the world for people who already drive regularly",
+       "Becoming the leading company in prototyping autonomous vehicles",
+       "Improving traffic"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 2,
+     "Adv": {
+      "text": "Google says that the principal aim of the project is to improve safety and that, because the car is constructed with impact-absorbing foam at the front and a plastic windscreen, “it should be far safer than any other car for pedestrians”. The cars, which have been built specially by a company (as yet unnamed) in Detroit, will be used to investigate further how best to make driverless vehicles work. Google will now run a program to test the cars further, which are not yet for sale.",
+      "n_words": 86,
+      "fk_grade": 12.5,
+      "rare_word_share": 0.024
+     },
+     "Ele": {
+      "text": "Google says that the aim of the project is to improve safety. They say that the car is made with foam at the front and a plastic windscreen, so “it should be far safer than any other car for pedestrians.” The cars have been built specially by a company in Detroit. Google will now test the cars, which are not yet for sale.",
+      "n_words": 63,
+      "fk_grade": 5.7,
+      "rare_word_share": 0.016
+     },
+     "question": {
+      "q_index": 0,
+      "text": "According to the article, what has Google done to improve safety?",
+      "options": [
+       "Used materials that are safer for pedestrians",
+       "Designed the car to automatically detect pedestrians",
+       "Gone through multiple rounds of testing",
+       "Installed more cameras and sensors throughout the car"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 3,
+     "Adv": {
+      "text": "One challenge is creating high-definition scans of the roads and surroundings before the cars can drive along them because they cannot gather and process enough information in real time. So far, there are high-detail maps of about 2,000 miles of California’s roads, but the state has more than 170,000 miles of public roads. Google says it is interested in licensing the technology to traditional vehicle manufacturers once it has refined it sufficiently. Members of the team had been working on the project even before joining Google, for more than a decade.",
+      "n_words": 91,
+      "fk_grade": 12.3,
+      "rare_word_share": 0.0
+     },
+     "Ele": {
+      "text": "There need to be detailed scans of the roads before the cars can drive on them, because they cannot collect and process enough information in real time. So far, there are detailed maps of about 2,000 miles of California’s roads, but California has more than 170,000 miles of roads. Google says it wants to license the technology to traditional car makers when they have improved it.",
+      "n_words": 66,
+      "fk_grade": 10.1,
+      "rare_word_share": 0.0
+     },
+     "question": {
+      "q_index": 0,
+      "text": "Why are detailed, high-quality scans of the road needed?",
+      "options": [
+       "Because the cars cannot collect and process enough information in real time",
+       "Because people cannot collect and process enough information in real time",
+       "Because California has thousands of miles of roads",
+       "Because the cars often don’t arrive at their destination"
+      ],
+      "correct": 0
+     }
+    }
+   ]
+  },
+  {
+   "article": "A10",
+   "title": "Inky the Octopus Escapes from Aquarium",
+   "paragraphs": [
+    {
+     "p_index": 0,
+     "Adv": {
+      "text": "n octopus has made a brazen escape from the National Aquarium in New Zealand by breaking out of its tank, slithering down a 50-meter drainpipe and disappearing into the sea. In scenes reminiscent of Finding Nemo, Inky – a common New Zealand octopus – made his dash for freedom after the lid of his tank was accidentally left slightly ajar. Staff believe that in the middle of the night, while the aquarium was deserted, Inky clambered to the top of his glass enclosure, down the side of the tank and traveled across the floor of the aquarium. Rob Yarrell, national manager of the National Aquarium of New Zealand in Napier, said: “Octopuses are famous escape artists. I don’t think he was unhappy with us, or lonely, as octopuses are solitary creatures. But, he is such a curious boy. He would want to know what’s happening on the outside. That’s just his personality.”",
+      "n_words": 152,
+      "fk_grade": 10.2,
+      "rare_word_share": 0.083
+     },
+     "Ele": {
+      "text": "An octopus has escaped from the National Aquarium in New Zealand. It escaped from its tank, slid down a 50-meter drainpipe and disappeared into the sea. Inky – a common New Zealand octopus – escaped after someone left the lid of his tank open. Staff at the aquarium believe that, in the middle of the night, when there was no-one in the building, Inky climbed down the side of the tank and traveled across the floor. Rob Yarrell, national manager of the National Aquarium of New Zealand in Napier, said: “Octopuses are famous for their ability to escape. I don’t think he was unhappy with us, or lonely, because octopuses like to live alone. But, he is such a curious boy. He would want to know what’s happening on the outside. That’s his personality.”",
+      "n_words": 134,
+      "fk_grade": 7.8,
+      "rare_word_share": 0.055
+     },
+     "question": {
+      "q_index": 0,
+      "text": "Why does Yarrell mention that octopuses live alone?",
+      "options": [
+       "To provide evidence that Inky did not escape because he was lonely",
+       "To propose that Inky escaped because there were too many people in the aquarium",
+       "To explain why Inky could only escape when no one was around",
+       "To explain why octopuses are different from most other sea creatures"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 1,
+     "Adv": {
+      "text": "One theory is that Inky slid across the aquarium floor – a journey of three or four meters – and then, sensing freedom was at hand, into a drainpipe that led directly to the sea. The drainpipe was 50 meters long and opened onto the waters of Hawke’s Bay, on the east coast of New Zealand’s North Island. Another possible escape route could have involved Inky squeezing into an open pipe at the top of his tank, which led under the floor to the drain. “When we came in the next morning and his tank was empty, I was really surprised,” said Yarrell, who has not launched a search for Inky. “The staff and I have been pretty sad. But then, this is Inky and he’s always been a bit of a surprise octopus.”",
+      "n_words": 134,
+      "fk_grade": 8.8,
+      "rare_word_share": 0.065
+     },
+     "Ele": {
+      "text": "One idea is that Inky crossed the aquarium floor – a journey of three or four meters – and then, he realized that freedom was very near so he entered a drainpipe that led directly to the sea. The drainpipe was 50 meters long and opened into Hawke’s Bay, on the east coast of New Zealand’s North Island. It is also possible that Inky escaped through an open pipe at the top of his tank, which led under the floor to the drain. “When we came in the next morning and his tank was empty, I was really surprised,” said Yarrell, who has not started looking for Inky. “The staff and I have been sad. But then, this is Inky and he’s always been a bit of a surprise octopus.”",
+      "n_words": 130,
+      "fk_grade": 8.1,
+      "rare_word_share": 0.066
+     },
+     "question": {
+      "q_index": 0,
+      "text": "How did Inky escape?",
+      "options": [
+       "No one is sure - there are several theories that could explain his escape",
+       "Through an open pipe at the top of his tank",
+       "Yarrell and other staff secretly helped him",
+       "Through a window that was accidentally left open"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 2,
+     "Adv": {
+      "text": "Reiss Jenkinson, exhibits keeper at the National Aquarium, said he was absolutely certain Inky had not been taken. “I understand the nature of octopus behavior very well,” he said. “I have seen octopuses on boats slip through bilge pumps. And, the security here is too tight for anyone to take Inky and why would they?” Because octopuses have no bones, they are able to fit into extremely small spaces and have been filmed squeezing through gaps the size of coins. They are also understood to be extremely intelligent and capable of using tools. At the Island Bay Marine Education Center in Wellington, an octopus was found to be in the habit of visiting another tank overnight to steal crabs, then returning to its own. Another at the center, Ozymandias, was thought to have broken a world record for opening a jar before it was released into the ocean.",
+      "n_words": 148,
+      "fk_grade": 10.3,
+      "rare_word_share": 0.056
+     },
+     "Ele": {
+      "text": "Reiss Jenkinson, a keeper at the National Aquarium, said he was absolutely certain Inky was not stolen. “I understand octopus behavior very well,” he said. “I have seen octopuses on boats escape through waste pumps. And, the security here is too good for anyone to take Inky and why would they?” Because octopuses have no bones, they can fit into very small spaces and can squeeze through gaps the size of coins. They are also very intelligent and able to use tools. At the Island Bay Marine Education Center in Wellington, an octopus visited another tank every night to steal crabs, then return to its own tank. Another octopus at the center, Ozymandias, broke a world record for opening a jar.",
+      "n_words": 121,
+      "fk_grade": 8.7,
+      "rare_word_share": 0.06
+     },
+     "question": {
+      "q_index": 0,
+      "text": "How good is the security of the aquarium, according to Jenkinson?",
+      "options": [
+       "Too good for anything to be stolen from the aquarium without the theft being noticed",
+       "Not great, since the aquarium didn’t think anyone would try to steal from them",
+       "Not effective, as crabs and other creatures have been stolen in the past",
+       "It used to be poor, but became more secure in response to Inky’s disappearance"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 3,
+     "Adv": {
+      "text": "Inky was brought to the National Aquarium a number of years ago by a local fisherman who found him caught in a crayfish pot. He was scarred and “rough looking”, said Yarrell. “He had been living on the reef and fighting with fish so he wasn’t in the best shape.” According to Yarrell, Inky – who is about the size of a rugby ball – was an “unusually intelligent” octopus. “He was very friendly, very inquisitive and a popular attraction here. We have another octopus, Blotchy, but he is smaller than Inky and Inky had the personality.” The aquarium has no plans to step up security as a result of the escape as Inky was a “one-off” but the staff are “increasingly aware of what octopuses can actually do”. Although the aquarium is not actively searching for a replacement for Inky, if a fisherman brought in another octopus, it might be willing to take it on.",
+      "n_words": 156,
+      "fk_grade": 10.2,
+      "rare_word_share": 0.09
+     },
+     "Ele": {
+      "text": "Inky was brought to the National Aquarium several years ago by a local fisherman who found him in a fishing pot. Yarrell said, “He lived on the reef and fought with fish so he wasn't in a good shape.” According to Yarrell, Inky – who is about the size of a rugby ball – was an “unusually intelligent” octopus. “He was very friendly and a popular attraction here. We have another octopus, Blotchy, but he is smaller than Inky and Inky had the personality.” The aquarium has no plans to increase security as a result of the escape but the staff now know “what octopuses can do” so they will be more careful. The aquarium is not looking for another octopus but, if a fisherman brought in another octopus, the aquarium might take it.",
+      "n_words": 134,
+      "fk_grade": 9.9,
+      "rare_word_share": 0.064
+     },
+     "question": {
+      "q_index": 0,
+      "text": "How was Inky before coming to the aquarium?",
+      "options": [
+       "He was not doing well",
+       "He was strong from fighting with fish",
+       "He was friendly and popular",
+       "He was happier and calmer"
+      ],
+      "correct": 0
+     }
+    }
+   ]
+  },
+  {
+   "article": "A11",
+   "title": "Insects Could be the Planets Next Food Source",
+   "paragraphs": [
+    {
+     "p_index": 0,
+     "Adv": {
+      "text": "Crunchy, full of protein and to be found under a rock near you. Insects have long been overlooked as food in all but a handful of places around the world – but now they are crawling closer and closer to our plates. Spring 2013 will see a drive towards removing the yuck factor and putting insects not just on experimental gastronomic menus but also on supermarket shelves. In April, there will be a festival in London, Pestival 2013 – a Wellcome Trust-backed insect appreciation event where the consumption of creepy-crawlies comes high on the agenda. It will feature a two-day “pop-up” restaurant by the Nordic Food Lab, the Scandinavian team behind the Danish restaurant Noma, which brought ants to the table for a sellout ten-day run at Claridge’s hotel in London in 2012.",
+      "n_words": 133,
+      "fk_grade": 12.6,
+      "rare_word_share": 0.066
+     },
+     "Ele": {
+      "text": "In the West, people do not usually eat insects. But in some parts of the world, insects are an important food and in spring 2013 there will be an effort to show people that eating insects is not disgusting. And we may soon be able to buy insects in supermarkets. In April, there will be a festival in London, Pestival 2013, where there will be a discussion about the question of eating insects. The festival will include a restaurant by the Nordic Food Lab, the Scandinavian team behind the Danish restaurant Noma, which brought extremely popular insect dishes to Claridge’s hotel in London in 2012.",
+      "n_words": 105,
+      "fk_grade": 10.3,
+      "rare_word_share": 0.03
+     },
+     "question": {
+      "q_index": 0,
+      "text": "What will happen in spring 2013?",
+      "options": [
+       "A campaign to make people comfortable eating insects",
+       "Supermarkets will offer free insect tastings",
+       "Claridge’s hotel will serve insect dishes",
+       "A study will be conducted to assess the nutritional value of insects"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 1,
+     "Adv": {
+      "text": "In March, a BBC documentary will feature food writer Stefan Gates searching out and eating deep-fried locusts and barbecued tarantulas. But, behind all the gimmicks and jokes about flies in the soup, there is a deeply serious message. Many experts believe there is a clear environmental benefit to humans eating creepy-crawlies. The UN’s Food and Agriculture Organization (FAO) has been funding projects since 2011 aimed at promoting the eating and farming of insects in south-east Asia and Africa, where an estimated two billion people already eat insects and caterpillar larvae as a regular part of their diet. In 2012, the FAO published a list of 1,909 edible species of insect and, with sponsorship from the Dutch government, plans a major international conference on “this valuable food source” in 2013.",
+      "n_words": 129,
+      "fk_grade": 14.1,
+      "rare_word_share": 0.059
+     },
+     "Ele": {
+      "text": "In March, a BBC documentary will show a food writer eating deep-fried locusts and barbecued spiders. But, behind all the jokes there is a very serious message. Many experts believe that if humans eat insects, it will be very good for the environment. The UN’s Food and Agriculture Organization (FAO) gives money to projects that show people they can eat and farm insects in south-east Asia and Africa. In these places about two billion people already eat insects and larvae as a normal part of their diet. In 2012, the FAO published a list of 1,909 edible species of insect and plans a major international conference on “this valuable food source” in 2013.",
+      "n_words": 113,
+      "fk_grade": 10.0,
+      "rare_word_share": 0.038
+     },
+     "question": {
+      "q_index": 0,
+      "text": "According to experts, what will be an effect of eating insects?",
+      "options": [
+       "Eating insects could improve the environment",
+       "The environment will have fewer insects",
+       "The introduction of a new food source to south-east Asia and Africa",
+       "Eating insects will promote a healthy diet"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 2,
+     "Adv": {
+      "text": "Over the next 30 years, the planet’s human population will increase to nine billion. Already one billion people do not get enough food. The increase will mean more pressure on agricultural land, water, forests, fisheries and biodiversity resources, as well as nutrients and energy supplies. The cost of meat is rising, not just in terms of hard cash but also in terms of the amount of rainforest that is destroyed for grazing or to grow feedstuff for cattle. There is also the issue of methane excreted by cows. The livestock farming contribution, in terms of greenhouse gas emissions, is enormous – 35% of the planet’s methane, 65% of its nitrous oxide and 9% of the carbon dioxide.",
+      "n_words": 117,
+      "fk_grade": 10.0,
+      "rare_word_share": 0.027
+     },
+     "Ele": {
+      "text": "In the next 30 years, the planet’s human population will increase to nine billion. Already one billion people do not get enough food. The increase will put more pressure on agricultural land, water, forests, fisheries and resources, and also food and energy supplies. The cost of meat is increasing – it costs more money now, but also people have to destroy a lot of rainforest to make fields or to grow food for cows. Cows also make methane. The farming of cows, pigs and sheep makes very large amounts of greenhouse gases – 35% of the planet’s methane, 65% of its nitrous oxide and 9% of the carbon dioxide.",
+      "n_words": 109,
+      "fk_grade": 8.3,
+      "rare_word_share": 0.01
+     },
+     "question": {
+      "q_index": 0,
+      "text": "What will result from an increase in human population in the future?",
+      "options": [
+       "More pressure on farming resources",
+       "One billion people will not have enough food",
+       "The level of greenhouse gases will increase by 35%",
+       "Food quality will decrease"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 3,
+     "Adv": {
+      "text": "Edible insects emit few gases, contain high-quality protein, vitamins and amino acids, and have a high food-conversion rate, needing a quarter of the food intake of sheep, and half of pigs and chickens, to produce the same amount of protein. They emit fewer greenhouse gases and less ammonia than cows and can be grown on organic waste. China is already successfully setting up huge maggot farms. Zimbabwe has a thriving mapone caterpillar industry and Laos was given nearly $500,000 by the FAO to develop an insect-harvesting project. It’s already big business in the UK, though not always official: a man was recently detained by Gatwick customs as he stepped off a flight from Burkina Faso with 94 kilos of mapone, worth nearly £40,000, in his luggage. A study by FoodServiceWarehouse.com suggested that swapping pork and beef for crickets and locusts could help to reduce greenhouse gas emissions by as much as 95%.",
+      "n_words": 152,
+      "fk_grade": 13.0,
+      "rare_word_share": 0.063
+     },
+     "Ele": {
+      "text": "Edible insects make few gases, contain high-quality protein, vitamins and amino acids, and are good at converting food - they only need a quarter of the food that sheep need to make the same amount of protein. You can grow them on organic waste. China is already building huge maggot farms. Zimbabwe is growing caterpillars and Laos is developing an insect-harvesting project. One study says that eating crickets and locusts, and not eating pork and beef, could help to reduce greenhouse gas emissions by up to 95%.",
+      "n_words": 87,
+      "fk_grade": 9.5,
+      "rare_word_share": 0.036
+     },
+     "question": {
+      "q_index": 0,
+      "text": "What is one health benefit of eating insects?",
+      "options": [
+       "Insects contain many important nutrients",
+       "Insects contain higher quality protein than sheep",
+       "Insects are an organic food source",
+       "Insects reduce the risk of obesity"
+      ],
+      "correct": 0
+     }
+    }
+   ]
+  },
+  {
+   "article": "A12",
+   "title": "Japan Calls Time on Long Hours Work Culture",
+   "paragraphs": [
+    {
+     "p_index": 0,
+     "Adv": {
+      "text": "The regulation eight hours in the office is over. The most important work of the day is done; whatever is left can wait until the morning. This is the point many workers would think about heading for the door. Yet, for millions of Japanese employees, the thought of clearing away their desks and being at home in time for dinner is enough to invite accusations of disloyalty to the company. But, after decades of giving companies carte blanche to milk every last drop of productivity from their workforce, a challenge to Japan’s ingrained culture of overwork has come from the government, which is considering making it a legal requirement for workers to take at least five days’ paid holiday a year.",
+      "n_words": 121,
+      "fk_grade": 11.9,
+      "rare_word_share": 0.034
+     },
+     "Ele": {
+      "text": "You’ve spent eight hours in the office. You’ve finished the most important work of the day. This is the time when most workers would think about going home. But, for millions of Japanese employees, if they leave work and arrive home in time for dinner, people say that they are disloyal to their company. But now, the government is trying to do something about Japan’s culture of overwork. It wants to make workers take at least five days’ paid holiday a year.",
+      "n_words": 82,
+      "fk_grade": 5.9,
+      "rare_word_share": 0.024
+     },
+     "question": {
+      "q_index": 0,
+      "text": "Why would someone be considered disloyal to their company in Japan?",
+      "options": [
+       "They arrived home before dinner time",
+       "They ate dinner at work",
+       "They took more than five days off",
+       "They revealed trade secrets"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 1,
+     "Adv": {
+      "text": "Japanese employees are currently entitled to an average 18.5 days’ paid holiday a year – only two fewer than the global average – with a minimum of ten days, as well as 15 one-day national holidays. In reality, few come even close to taking their full quota, typically using only nine of their 18.5-day average entitlement. While many British workers regard a two-week summer holiday as an inalienable right, workers in Japan have come to see a four-night vacation as the height of self-indulgence. The move, to be debated in the current parliamentary session, comes after companies started encouraging employees to nap on the job to improve their performance. By the end of the decade, the government hopes that, if passed, the law will push Japanese employees towards following the example set by British workers, who use an average of 20 days’ paid annual leave, and those in France, who take an average of 25.",
+      "n_words": 155,
+      "fk_grade": 15.5,
+      "rare_word_share": 0.014
+     },
+     "Ele": {
+      "text": "Japanese employees are allowed an average of 18.5 days’ paid holiday a year, fewer than the global average. Companies must allow them a minimum of ten days’ paid holiday, plus 15 one-day national holidays. But very few employees take these days. Most take only nine days of holiday, according to the labor ministry. Many British workers think that a two-week summer holiday is their right but workers in Japan think that a four-night vacation is a big self-indulgence. By 2020, the government hopes that the law will make Japanese employees follow the example of British workers, who take an average of 20 days’ paid annual leave, and workers in France, who take an average of 25.",
+      "n_words": 116,
+      "fk_grade": 10.8,
+      "rare_word_share": 0.009
+     },
+     "question": {
+      "q_index": 0,
+      "text": "What are Japanese workers likely to think about taking a two-week summer holiday?",
+      "options": [
+       "That it is unnecessarily long",
+       "That it is not their right",
+       "That their employers would not allow it",
+       "That it would be boring"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 2,
+     "Adv": {
+      "text": "Japan’s unforgiving work culture may have helped turn it into an economic superpower, its corporate foot soldiers revered in the rest of the world for their commitment to the company, but this has often been to the exclusion of everything else. Japan’s low birth rate and predictions of rapid population decline are partly blamed on the lack of time couples have to start families. More employees are falling ill from stress, or worse, succumbing to karoshi, death through overwork. Despite studies suggesting that longer hours in the office or workshop or on the factory floor do not necessarily make people more productive, today’s workers are still nursing a collective hangover from the bubble years of the 1980s.",
+      "n_words": 117,
+      "fk_grade": 14.9,
+      "rare_word_share": 0.035
+     },
+     "Ele": {
+      "text": "Japan’s employees are respected and admired in the rest of the world for their commitment to the company. But they often have no time for anything else. Couples don’t have time to start families. So, Japan has a low birth rate and the population is declining. More employees are falling ill from stress or even dying through overwork. Japanese people continue to work hard, despite studies that suggest that longer hours at work do not necessarily make people more productive.",
+      "n_words": 80,
+      "fk_grade": 7.7,
+      "rare_word_share": 0.013
+     },
+     "question": {
+      "q_index": 0,
+      "text": "How do people in the world view the Japanese employees?",
+      "options": [
+       "They highly respect them",
+       "They think they are too committed to their companies",
+       "They criticize their willingness to sacrifice family for work",
+       "They think they are too complacent"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 3,
+     "Adv": {
+      "text": "About 22% of Japanese work more than 49 hours a week, compared with 16% of US workers and 11% in France and Germany, according to data from the Japanese government. In spending 14 hours a day at work and giving up many of her paid holidays, Erika Sekiguchi is not even an extreme example. The 36-year-old trading company employee used eight of her 20 days of paid vacation in 2014, six of which counted as sick leave. “Nobody else uses their vacation days,” Sekiguchi said. She faces a dilemma: never to take time off or to invite criticism for leaving her colleagues in the lurch. Yuu Wakebe, a health ministry official overseeing policy on working hours, who admits putting in 100 hours of overtime a month, blames the irresistible pressure to match one’s colleagues, hour for hour. “It is a worker’s right to take paid vacations,” Wakebe said. “But unfortunately working in Japan involves quite a lot of volunteer spirit.”",
+      "n_words": 160,
+      "fk_grade": 10.5,
+      "rare_word_share": 0.048
+     },
+     "Ele": {
+      "text": "About 22% of Japanese work more than 49 hours a week, compared with 16% of US workers and 11% in France and Germany, according to data from the Japanese government. “Nobody else uses their vacation days,” says Erika Sekiguchi, a 36-year-old employee. She spends 14 hours a day at work and used only eight of her 20 days of paid vacation in 2014, six of which were sick leave. Yuu Wakebe, who works at the health ministry, admits that he does 100 hours of overtime a month. “It is a worker’s right to take paid vacations,” Wakebe said. “But sadly workers in Japan have to do a lot of extra work for no money.”",
+      "n_words": 114,
+      "fk_grade": 8.0,
+      "rare_word_share": 0.05
+     },
+     "question": {
+      "q_index": 0,
+      "text": "Who says that Japanese workers don’t use their vacation days?",
+      "options": [
+       "Erika Sekiguchi",
+       "An old employee of a company",
+       "Yuu Wakebe",
+       "A journalist"
+      ],
+      "correct": 0
+     }
+    }
+   ]
+  },
+  {
+   "article": "A27",
+   "title": "Why is Sweden Closing its Prisons?",
+   "paragraphs": [
+    {
+     "p_index": 0,
+     "Adv": {
+      "text": "Swedish prisons have long had a reputation around the world for being progressive. But are the country’s prisons a soft option? The head of Sweden’s prison and probation service, Nils Oberg, announced in November 2013 that four Swedish prisons are to be closed due to an “out of the ordinary” decline in prisoner numbers. Although there has been no fall in crime rates, between 2011 and 2012 there was a 6% drop in Sweden’s prisoner population, now a little over 4,500. A similar decrease is expected in 2013 and 2014. Oberg admitted to being puzzled by the unexpected dip, but expressed optimism that the reason was to do with how his prisons are run. “We certainly hope that the efforts we invest in rehabilitation and preventing relapse of crime has had an impact,” he said.",
+      "n_words": 135,
+      "fk_grade": 9.4,
+      "rare_word_share": 0.024
+     },
+     "Ele": {
+      "text": "Swedish prisons have a reputation around the world for being liberal and modern. But are the country’s prisons too soft? The head of Sweden’s prison and probation service, Nils Oberg, said in November 2013 that four Swedish prisons will close because of an “out of the ordinary” drop in the number of prisoners. There has been no fall in crime rates, but, between 2011 and 2012, there was a 6% drop in the number of people in Sweden’s prisons, now a little over 4,500. Oberg said he was confused by the drop in numbers, but hoped that the reason was to do with how his prisons are managed. “We certainly hope that the efforts we put into rehabilitation and into stopping criminals from reoffending has made a difference,” he said.",
+      "n_words": 130,
+      "fk_grade": 9.9,
+      "rare_word_share": 0.033
+     },
+     "question": {
+      "q_index": 0,
+      "text": "What changed between 2011 and 2012?",
+      "options": [
+       "There are fewer people in Sweden’s prisons",
+       "Crime rates in Sweden have dropped",
+       "Swedish prisons became more liberal and progressive",
+       "The Swedish government started publishing crime statistics"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 1,
+     "Adv": {
+      "text": "“The modern prison service in Sweden is very different from when I joined as a young prison officer in 1978,” says Kenneth Gustafsson, governor of Kumla Prison, Sweden’s most secure jail. However, he doesn’t think the system has gone soft. “When I joined, the focus was very much on humanity in prisons. Prisoners were treated well – maybe too well, some might say. But, after a number of high-profile escapes in 2004, we had to implement changes to make prisons more secure.” The Swedes still managed to maintain a broadly humane approach to sentencing, even of the most serious offenders: jail terms rarely exceed ten years. Sweden was the first country in Europe to introduce the electronic tagging of convicted criminals and continues to strive to minimize short-term prison sentences wherever possible by using community-based punishments, which have been proven to be more effective at reducing reoffending.",
+      "n_words": 147,
+      "fk_grade": 11.8,
+      "rare_word_share": 0.022
+     },
+     "Ele": {
+      "text": "“The modern prison service in Sweden is very different from when I joined as a young prison officer in 1978,” says Kenneth Gustafsson, governor of Kumla Prison, Sweden’s most secure jail. “When I joined, prisoners were treated well – maybe too well. But, after high profile escapes in 2004, we had to make the prisons more secure.” In Sweden, prison sentences are not usually for more than ten years. Sweden was the first country in Europe to introduce the electronic tagging of criminals and it continues to keep prison sentences short when possible by using community-based punishments. These have stopped many criminals from reoffending.",
+      "n_words": 104,
+      "fk_grade": 9.9,
+      "rare_word_share": 0.031
+     },
+     "question": {
+      "q_index": 0,
+      "text": "What changed in Swedish prisons after 2004?",
+      "options": [
+       "Prisons have become more secure",
+       "There have been more high profile escapes",
+       "Prison sentences have become shorter",
+       "Prisoners were allowed to receive visitors more frequently"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 2,
+     "Adv": {
+      "text": "The overall reoffending rate in Sweden stands at between 30 and 40% over three years – to compare that with another European country, the number is around half that of the UK. One likely reason for the relatively low reoffending rate and the low rate of incarceration in Sweden (below 70 per 100,000 head of population) is that the age of criminal responsibility is set at 15. In the UK, for example, children aged ten to 17 and young people under the age of 21 record the highest reoffending rates: almost three quarters and two thirds, respectively. A good proportion of these offenders go on to populate adult jails. In Sweden, no young person under the age of 21 can be sentenced to life – this is not the case in many other countries – and every effort is made to ensure that as few juvenile offenders as possible end up in prison.",
+      "n_words": 153,
+      "fk_grade": 14.0,
+      "rare_word_share": 0.028
+     },
+     "Ele": {
+      "text": "The reoffending rate in Sweden is between 30 and 40% – to compare that with another European country, the number is around half that of the UK. One thing that has kept reoffending down and the number of prisoners in Sweden below 70 per 100,000 people is that anyone under 15 cannot be responsible for their crime. Also, in Sweden, no young person under the age of 21 can be sentenced to life – this is not the same in many other countries – and they try to keep young offenders out of prison.",
+      "n_words": 94,
+      "fk_grade": 12.4,
+      "rare_word_share": 0.024
+     },
+     "question": {
+      "q_index": 0,
+      "text": "What does “below 70 per 100,000” refer to?",
+      "options": [
+       "The number of people who sit in Swedish prisons",
+       "The reoffending rate for people under 15 in Sweden",
+       "The number of people under 21 sentenced to life in Sweden",
+       "The success rate of prison escape attempts in Sweden"
+      ],
+      "correct": 0
+     }
+    },
+    {
+     "p_index": 3,
+     "Adv": {
+      "text": "One strong reason for the drop in prison numbers might be the amount of post-prison support available in Sweden. A confident probation service – a government agency – is tasked not only with supervising those on probation but is also guaranteed to provide treatment programs for offenders with drug, alcohol or violence issues. The service is assisted by around 4,500 lay supervisors – members of the public who volunteer to befriend and support offenders under supervision. “In Sweden, we believe very much in the concept of rehabilitation, without being naive of course,” says Gustafsson. “There are some people who will not or cannot change. But, in my experience, the majority of prisoners want to change, and we must do what we can to help to facilitate that. It is not always possible to achieve this in one prison sentence.”",
+      "n_words": 139,
+      "fk_grade": 11.2,
+      "rare_word_share": 0.015
+     },
+     "Ele": {
+      "text": "One reason for the drop in prison numbers might be the amount of post-prison support available in Sweden. A government-run probation service gives treatment programs to offenders with drug, alcohol or violence problems. Around 4,500 Swedes help the service – they volunteer to make friends with and support offenders. “In Sweden, we believe very much in the idea of rehabilitation,” says Gustafsson. “Of course, there are some people who will not or cannot change. But, in my experience, most prisoners want to change and we must do what we can to help them.”",
+      "n_words": 93,
+      "fk_grade": 8.5,
+      "rare_word_share": 0.011
+     },
+     "question": {
+      "q_index": 0,
+      "text": "Who helps the treatment programs for prisoners?",
+      "options": [
+       "4,500 volunteers",
+       "Former offenders",
+       "Gustafsson",
+       "Religious organizations"
+      ],
+      "correct": 0
+     }
+    }
+   ]
+  }
+ ],
+ "specialist": [
+  {
+   "id": "SP-MED-1",
+   "domain": "Medicine",
+   "text": "Amine hormones are synthesized from the amino acids tryptophan or tyrosine. An example of a hormone derived from tryptophan is melatonin, which is secreted by the pineal gland and helps regulate circadian rhythm. Tyrosine derivatives include the metabolism-regulating thyroid hormones, as well as the catecholamines, such as epinephrine, norepinephrine, and dopamine. Epinephrine and norepinephrine are secreted by the adrenal medulla and play a role in the fight-or-flight response, whereas dopamine is secreted by the hypothalamus and inhibits the release of certain anterior pituitary hormones.",
+   "n_words": 84,
+   "fk_grade": 16.8,
+   "rare_word_share": 0.256,
+   "source": "OpenStax, Anatomy and Physiology 2e, section 'Hormones ' (m46667)",
+   "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+   "licence": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "SP-MED-2",
+   "domain": "Medicine",
+   "text": "The liver has three main components: hepatocytes, bile canaliculi, and hepatic sinusoids. A hepatocyte is the liver’s main cell type, accounting for around 80 percent of the liver's volume. These cells play a role in a wide variety of secretory, metabolic, and endocrine functions. Plates of hepatocytes called hepatic laminae radiate outward from the central vein in each hepatic lobule.",
+   "n_words": 60,
+   "fk_grade": 12.1,
+   "rare_word_share": 0.25,
+   "source": "OpenStax, Anatomy and Physiology 2e, section 'Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder ' (m46496)",
+   "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+   "licence": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "SP-MED-3",
+   "domain": "Medicine",
+   "text": "Three of the cranial nerves also contain autonomic fibers, and a fourth is almost purely a component of the autonomic system. The oculomotor, facial, and glossopharyngeal nerves contain fibers that contact autonomic ganglia. The oculomotor fibers initiate pupillary constriction, whereas the facial and glossopharyngeal fibers both initiate salivation. The vagus nerve primarily targets autonomic ganglia in the thoracic and upper abdominal cavities.",
+   "n_words": 62,
+   "fk_grade": 16.1,
+   "rare_word_share": 0.267,
+   "source": "OpenStax, Anatomy and Physiology 2e, section 'The Peripheral Nervous System ' (m46553)",
+   "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+   "licence": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "SP-MED-4",
+   "domain": "Medicine",
+   "text": "Continuous with the laryngopharynx, the superior portion of the larynx is lined with stratified squamous epithelium, transitioning into pseudostratified ciliated columnar epithelium that contains goblet cells. Similar to the nasal cavity and nasopharynx, this specialized epithelium produces mucus to trap debris and pathogens as they enter the trachea. The cilia beat the mucus upward towards the laryngopharynx, where it can be swallowed down the esophagus.",
+   "n_words": 65,
+   "fk_grade": 16.5,
+   "rare_word_share": 0.277,
+   "source": "OpenStax, Anatomy and Physiology 2e, section 'Organs and Structures of the Respiratory System ' (m46548)",
+   "url": "https://openstax.org/details/books/anatomy-and-physiology-2e",
+   "licence": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "SP-LAW-1",
+   "domain": "Law",
+   "text": "The Constitution empowers federal law making by giving Congress the power to enact statutes for certain limited purposes, like regulating interstate commerce. Federal law preempts conflicting state and local laws. However, federal preemption is not without limits, insofar as states each have their own constitution and are considered sovereign. Therefore, federal law may only preempt state law if it is enacted within the limited powers that are enumerated and granted to Congress in the Constitution.",
+   "n_words": 75,
+   "fk_grade": 12.8,
+   "rare_word_share": 0.08,
+   "source": "OpenStax, Business Law I Essentials, section 'Sources and Types of Law' (m78877)",
+   "url": "https://openstax.org/details/books/business-law-i-essentials",
+   "licence": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "SP-LAW-2",
+   "domain": "Law",
+   "text": "Contracts must be created for the exchange of legal goods and services to be enforced. An agreement is void if it violates the law, or is formed for the purpose of violating the law. Contracts may also be found voidable if they are found violative of public policy, although this is rarer. Typically, this conclusion is only invoked in clear cases where the potential harm to the public is substantially incontestable, eluding the idiosyncrasies of particular judges.",
+   "n_words": 77,
+   "fk_grade": 11.1,
+   "rare_word_share": 0.078,
+   "source": "OpenStax, Business Law I Essentials, section 'Capacity and Legality' (m78897)",
+   "url": "https://openstax.org/details/books/business-law-i-essentials",
+   "licence": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "SP-LAW-3",
+   "domain": "Law",
+   "text": "The promissory estoppel doctrine is an exception to the requirement of consideration for contracts. Promissory estoppel is triggered when one party acts on the other party’s promise. In cases where it is triggered, there is harm or severe injustice to the party who acted because they relied on the other party’s broken promise.",
+   "n_words": 53,
+   "fk_grade": 11.3,
+   "rare_word_share": 0.075,
+   "source": "OpenStax, Business Law I Essentials, section 'Agreement, Consideration, and Promissory Estoppel' (m78896)",
+   "url": "https://openstax.org/details/books/business-law-i-essentials",
+   "licence": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "SP-LAW-4",
+   "domain": "Law",
+   "text": "With globalization, there has been a significant expansion of commercial transactions undertaken across international borders. The United Nations Convention on Contracts for the International Sale of Goods, or the CISG, is the main legal structure offered for the governance of international commercial transactions. The CISG broadly covers the same topics as the UCC, but it preempts the UCC if there is a problem with an international sale.",
+   "n_words": 67,
+   "fk_grade": 14.4,
+   "rare_word_share": 0.077,
+   "source": "OpenStax, Business Law I Essentials, section 'The Nature and Origins of Sales Contracts' (m78900)",
+   "url": "https://openstax.org/details/books/business-law-i-essentials",
+   "licence": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "SP-PHI-1",
+   "domain": "Philosophy",
+   "text": "Western readers should take care not to reduce Samkhya’s metaphysics and epistemology to the various dualistic systems seen in, for example, the account of the soul in Plato’s Phaedo or in Christian metaphysics more generally. The metaphysical system of creation in Samkhya is much more complex than either of these Western examples.",
+   "n_words": 52,
+   "fk_grade": 15.7,
+   "rare_word_share": 0.135,
+   "source": "OpenStax, Introduction to Philosophy, section 'Classical Indian Philosophy' (m00015)",
+   "url": "https://openstax.org/details/books/introduction-philosophy",
+   "licence": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "SP-PHI-2",
+   "domain": "Philosophy",
+   "text": "Whatever follows “if” is called the antecedent; whatever follows “then” is called the consequent. Ante means “before,” as in the word “antebellum,” which in the United States refers to anything that occurred or was produced before the American Civil War. The antecedent is the first part of the conditional, occurring before the consequent. A consequent is a result, and in a conditional statement, it is the result of the antecedent (if the antecedent is true).",
+   "n_words": 75,
+   "fk_grade": 11.7,
+   "rare_word_share": 0.111,
+   "source": "OpenStax, Introduction to Philosophy, section 'Logical Statements' (m00027)",
+   "url": "https://openstax.org/details/books/introduction-philosophy",
+   "licence": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "SP-PHI-3",
+   "domain": "Philosophy",
+   "text": "Today, some might think that atomism and Aristotle’s teleological view have evolved into a theory of cells that resolves the acorn-oak tree identity problem. The purpose, or ergon, of both the acorn and the oak tree are present in the zygote, the cell that forms when male and female sex cells combine. This zygote cell contains the genetic material, or the instructions, for how the organism will develop to carry out its intended purpose.",
+   "n_words": 74,
+   "fk_grade": 12.9,
+   "rare_word_share": 0.11,
+   "source": "OpenStax, Introduction to Philosophy, section 'Self and Identity' (m00033)",
+   "url": "https://openstax.org/details/books/introduction-philosophy",
+   "licence": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "SP-PHI-4",
+   "domain": "Philosophy",
+   "text": "The British philosopher Gertrude Elizabeth Margaret Anscombe (1919–2001), known as G. E. M. Anscombe, critiqued Aristotle’s ethics and eudaimonism in her 1958 article “Modern Moral Philosophy.” For Anscombe, Aristotle’s concept of eudaimonism is too vague to be useful to moral philosophy, and many of the virtues he describes in Nicomachean Ethics do not fit within a moral framework.",
+   "n_words": 58,
+   "fk_grade": 11.7,
+   "rare_word_share": 0.135,
+   "source": "OpenStax, Introduction to Philosophy, section 'Well-Being' (m00048)",
+   "url": "https://openstax.org/details/books/introduction-philosophy",
+   "licence": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "SP-ECO-1",
+   "domain": "Economics",
+   "text": "Monopolists are not productively efficient, because they do not produce at the minimum of the average cost curve. Monopolists are not allocatively efficient, because they do not produce at the quantity where P = MC. As a result, monopolists produce less, at a higher average cost, and charge a higher price than would a combination of firms in a perfectly competitive industry. Monopolists also may lack incentives for innovation, because they need not fear entry.",
+   "n_words": 75,
+   "fk_grade": 12.8,
+   "rare_word_share": 0.088,
+   "source": "OpenStax, Principles of Economics 3e, section 'How a Profit-Maximizing Monopoly Chooses Output and Price' (m63942)",
+   "url": "https://openstax.org/details/books/principles-economics-3e",
+   "licence": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "SP-ECO-2",
+   "domain": "Economics",
+   "text": "A production possibilities frontier defines the set of choices society faces for the combinations of goods and services it can produce given the resources and the technology that are available. The shape of the PPF is typically curved outward, rather than straight. Choices outside the PPF are unattainable and choices inside the PPF are wasteful. Over time, a growing economy will tend to shift the PPF outwards.",
+   "n_words": 67,
+   "fk_grade": 10.1,
+   "rare_word_share": 0.092,
+   "source": "OpenStax, Principles of Economics 3e, section 'The Production Possibilities Frontier and Social Choices' (m63610)",
+   "url": "https://openstax.org/details/books/principles-economics-3e",
+   "licence": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "SP-ECO-3",
+   "domain": "Economics",
+   "text": "The government need not balance its budget every year. However, a sustained pattern of large budget deficits over time risks causing several negative macroeconomic outcomes: a shift to the right in aggregate demand that causes an inflationary increase in the price level; crowding out private investment in physical capital in a way that slows down economic growth; and creating a dependence on inflows of international portfolio investment which can sometimes turn into outflows of foreign financial investment that can be injurious to a macroeconomy.",
+   "n_words": 84,
+   "fk_grade": 22.7,
+   "rare_word_share": 0.089,
+   "source": "OpenStax, Principles of Economics 3e, section 'Fiscal Policy and the Trade Balance' (m64121)",
+   "url": "https://openstax.org/details/books/principles-economics-3e",
+   "licence": "CC BY-NC-SA 4.0"
+  },
+  {
+   "id": "SP-ECO-4",
+   "domain": "Economics",
+   "text": "The Keynesian perspective considers changes to aggregate demand to be the cause of business cycle fluctuations. Keynesians are likely to advocate that policy makers actively attempt to reverse recessionary and inflationary periods because they are not convinced that the self-correcting economy can easily return to full employment.",
+   "n_words": 47,
+   "fk_grade": 17.9,
+   "rare_word_share": 0.085,
+   "source": "OpenStax, Principles of Economics 3e, section 'Balancing Keynesian and Neoclassical Models' (m63804)",
+   "url": "https://openstax.org/details/books/principles-economics-3e",
+   "licence": "CC BY-NC-SA 4.0"
+  }
+ ],
+ "practice": [
+  {
+   "id": "PR-A25-p0",
+   "kind": "onestop",
+   "level": "Int",
+   "title": "Vienna Named World’s Top City for Quality of Life",
+   "text": "Vienna is the world’s best city to live in, Baghdad is the worst and London, Paris and New York do not even enter the top 35, according to international research into quality of life. German-speaking cities dominate the rankings in the 18th Mercer Quality of Life study, with Vienna joined by Zurich, Munich, Dusseldorf and Frankfurt in the top seven. Paris has dropped down the table – it has fallen ten places to 37th, just ahead of London at 39th, mostly because of the terrorist attacks on the city. The study examined social and economic conditions, health, education, housing and the environment. It is used by big companies to decide where they should open offices and factories and how much they should pay staff.",
+   "question": {
+    "q_index": 0,
+    "text": "What is the ranking of Paris in the 18th Mercer Quality of Life study?",
+    "options": [
+     "37th",
+     "10th",
+     "39th",
+     "2nd"
+    ],
+    "correct": 0
+   }
+  },
+  {
+   "id": "PR-A25-p1",
+   "kind": "onestop",
+   "level": "Int",
+   "title": "Vienna Named World’s Top City for Quality of Life",
+   "text": "Helena Hartlauer, 32, from Vienna, said she was not surprised at her city’s top position. The city’s social democratic government has a long tradition of investing money in high-quality social housing, which makes Vienna less expensive than other major cities. “I live in a 100sq-meter apartment in a good area about 20 minutes’ walk from the city center. But my rent is just €800 (£625) a month.” A similar apartment in London would cost over £2,000 and even more in New York, ranked 44th in the table.",
+   "question": {
+    "q_index": 0,
+    "text": "Why is Vienna a cheap place to live compared to other cities?",
+    "options": [
+     "The government has helped make housing cheap",
+     "A social tradition of sharing apartments among several people",
+     "Apartments in other cities are closer to the city center",
+     "Vienna is not a bustling economic center"
+    ],
+    "correct": 0
+   }
+  },
+  {
+   "id": "PR-PHI",
+   "kind": "specialist",
+   "domain": "Philosophy",
+   "text": "Inferences can be deductive, inductive, or abductive. Deductive inferences are the strongest because they can guarantee the truth of their conclusions. Inductive inferences are the most widely used, but they do not guarantee the truth and instead deliver conclusions that are probably true. Abductive inferences also deal in probability.",
+   "source": "OpenStax, Introduction to Philosophy, section 'Types of Inferences' (m00029)",
+   "licence": "CC BY-NC-SA 4.0"
+  }
+ ]
+}

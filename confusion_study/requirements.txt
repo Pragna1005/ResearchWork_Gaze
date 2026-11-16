@@ -1,0 +1,6 @@
+pygame-ce>=2.5
+numpy
+opencv-python
+mss>=9
+# optional, often faster screen capture on Windows (use --backend dxcam):
+# dxcam
